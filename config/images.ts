@@ -6,6 +6,7 @@ export const IMAGES = {
     // ヒーロー画像
     hero: {
         main: `${import.meta.env.BASE_URL}images/hero/main.jpg`,
+        mainMobile: `${import.meta.env.BASE_URL}images/hero/main_mobile.jpg`,
         store: `${import.meta.env.BASE_URL}images/hero/store.jpg`,
     },
 
