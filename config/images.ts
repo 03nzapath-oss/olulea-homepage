@@ -5,18 +5,18 @@
 export const IMAGES = {
     // ヒーロー画像
     hero: {
-        main: '/images/hero/main.jpg',
-        store: '/images/hero/store.jpg',
+        main: `${import.meta.env.BASE_URL}images/hero/main.jpg`,
+        store: `${import.meta.env.BASE_URL}images/hero/store.jpg`,
     },
 
     // ギャラリー画像
     gallery: [
-        { id: 1, path: '/images/gallery/1.jpg', alt: 'サロン内観1' },
-        { id: 2, path: '/images/gallery/2.jpg', alt: 'サロン内観2' },
-        { id: 3, path: '/images/gallery/3.jpg', alt: 'カットスタイル1' },
-        { id: 4, path: '/images/gallery/4.jpg', alt: 'カットスタイル2' },
-        { id: 5, path: '/images/gallery/5.jpg', alt: 'シャンプー台' },
-        { id: 6, path: '/images/gallery/6.jpg', alt: '商品・設備' },
+        { id: 1, path: `${import.meta.env.BASE_URL}images/gallery/1.jpg`, alt: 'サロン内観1' },
+        { id: 2, path: `${import.meta.env.BASE_URL}images/gallery/2.jpg`, alt: 'サロン内観2' },
+        { id: 3, path: `${import.meta.env.BASE_URL}images/gallery/3.jpg`, alt: 'カットスタイル1' },
+        { id: 4, path: `${import.meta.env.BASE_URL}images/gallery/4.jpg`, alt: 'カットスタイル2' },
+        { id: 5, path: `${import.meta.env.BASE_URL}images/gallery/5.jpg`, alt: 'シャンプー台' },
+        { id: 6, path: `${import.meta.env.BASE_URL}images/gallery/6.jpg`, alt: '商品・設備' },
     ],
 };
 

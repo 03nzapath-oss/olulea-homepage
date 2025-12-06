@@ -23,7 +23,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       <header className="fixed top-0 left-0 w-full bg-white/95 backdrop-blur-sm z-50 h-16 md:h-20 flex items-center justify-between px-4 md:px-8 border-b border-secondary">
         <NavLink to="/" className="flex items-center">
           <img
-            src="/olulea-homepage/images/logo.svg"
+            src={`${import.meta.env.BASE_URL}images/logo.svg`}
             alt="OLU'LEA"
             className="h-10 md:h-14 w-auto"
           />
@@ -90,7 +90,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       {/* Footer */}
       <footer className="bg-secondary py-12 px-4 text-center mt-20">
         <img
-          src="/olulea-homepage/images/logo-header.svg"
+          src={`${import.meta.env.BASE_URL}images/logo-header.svg`}
           alt="OLU'LEA"
           className="h-20 w-auto mx-auto mb-6"
         />

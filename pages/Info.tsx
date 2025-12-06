@@ -48,7 +48,7 @@ const Info: React.FC = () => {
                   {(f.includes("ケア理容師") || i === 1) && (
                     <div className="mt-2 ml-4">
                       <img
-                        src="/images/care_barber.jpg"
+                        src={`${import.meta.env.BASE_URL}images/care_barber.jpg`}
                         alt="ケア理容師マーク"
                         className="w-24 md:w-32 h-auto"
                       />
