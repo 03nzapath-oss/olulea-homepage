@@ -64,7 +64,7 @@ const Home: React.FC = () => {
               <h3 className="text-lg tracking-widest text-accent mb-2 group-hover:opacity-80">HEAD SPA</h3>
               <p className="text-xs text-subtext mb-4">ヘッドスパ</p>
               <p className="text-sm leading-relaxed text-subtext">
-                10種類の香りから選べるスパで、<br />頭皮の汚れを落とし、心身ともにリラックス。
+                頭皮と髪に合わせて9通りから選べるスパで、<br />汚れを落とし、心身ともにリラックス。
               </p>
             </Link>
             <Link to="/esthe" className="group block bg-white p-8 hover:shadow-sm transition-shadow duration-300">
