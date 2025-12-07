@@ -12,7 +12,8 @@ export const SHOP_INFO = {
   access: [
     "R50から700m",
     "ファミリーマート手前",
-    "近隣：みどり市役所、笠懸小、前橋／桐生方面案内"
+    "笠懸西小学校南側道路向かい",
+    "近隣：みどり市役所、笠懸小学校"
   ],
   features: [
     "個室あり",
@@ -28,7 +29,7 @@ export const MENU_ITEMS: MenuCategory[] = [
         name: "カット",
         items: [
           {
-            subcategory: "〈メンズ〉（シェービング・シャンプー 込み）",
+            subcategory: "〈メンズ〉（シェービング・シャンプー込み）",
             items: [
               { name: "レギュラーカット", price: "¥4,600" },
               { name: "プレミアムカット", price: "¥5,200" },
@@ -36,7 +37,7 @@ export const MENU_ITEMS: MenuCategory[] = [
             ]
           },
           {
-            subcategory: "〈レディース〉（シャンプー・ブロー 込み）",
+            subcategory: "〈レディース〉（シャンプー・ブロー込み）",
             items: [
               { name: "レギュラーカット", price: "¥4,600" },
               { name: "プレミアムカット", price: "¥5,200" },
@@ -54,14 +55,14 @@ export const MENU_ITEMS: MenuCategory[] = [
         name: "カラー",
         items: [
           {
-            subcategory: "〈メンズ〉（カット・シェービング・シャンプー 込み）",
+            subcategory: "〈メンズ〉（カット・シェービング・シャンプー込み）",
             items: [
               { name: "グレーカラー", price: "¥7,500〜" },
               { name: "ファッションカラー", price: "¥8,500〜" },
             ]
           },
           {
-            subcategory: "〈レディース〉（シャンプー・ブロー 込み）",
+            subcategory: "〈レディース〉（シャンプー・ブロー込み）",
             items: [
               { name: "グレーカラー", price: "¥6,500〜" },
               { name: "ファッションカラー", price: "¥7,500〜" },
@@ -73,14 +74,14 @@ export const MENU_ITEMS: MenuCategory[] = [
         name: "パーマ",
         items: [
           {
-            subcategory: "〈メンズ〉（カット・シェービング・シャンプー 込み）",
+            subcategory: "〈メンズ〉（カット・シェービング・シャンプー込み）",
             items: [
               { name: "コールドパーマ", price: "¥10,500〜" },
               { name: "アイロンパーマ", price: "¥10,500〜" },
             ]
           },
           {
-            subcategory: "〈レディース〉（カット・シャンプー・ブロー 込み）",
+            subcategory: "〈レディース〉（カット・シャンプー・ブロー込み）",
             items: [
               { name: "コールドパーマ", price: "¥10,500〜" },
               { name: "ストレートパーマ", price: "¥13,500〜" },
@@ -93,9 +94,9 @@ export const MENU_ITEMS: MenuCategory[] = [
   {
     category: "Relaxation",
     items: [
-      { name: "ヘッドスパ", price: "メニュー参照" },
-      { name: "エステ", price: "メニュー参照" },
-      { name: "メンズエステ", price: "詳細はお問い合わせください" },
+      { name: "ヘッドスパ", price: "¥2,600〜" },
+      { name: "エステ", price: "¥3,500〜" },
+      { name: "メンズエステ", price: "¥1,000〜" },
     ]
   }
 ];
@@ -107,7 +108,7 @@ export const ESTHE_MENU: HeadSpaCourse[] = [
     items: [
       {
         name: "トライアル",
-        description: "クレンジング\n↓\nお顔そり（肌あたりの良いレーザーで産毛をお剃りします）\n↓\nアロマオイルマッサージ\n↓\nローションマスク\n↓\n眉カット\n↓\nスキンアップ",
+        description: "クレンジング\n↓\nお顔そり（肌あたりの良いレーザーで産毛をお剃りします。）\n↓\nアロマオイルマッサージ\n↓\nローションマスク\n↓\n眉カット\n↓\nスキンアップ",
         variations: [
           {
             note: "フェイシャルのみ",
@@ -143,17 +144,17 @@ export const ESTHE_MENU: HeadSpaCourse[] = [
             {
               name: "ホワイトニング",
               steps: [
-                { name: "リンパマッサージ", description: "リンパに働きかけ老廃物を排泄します。\n美白・むくみ除去効果があります" },
+                { name: "リンパマッサージ", description: "リンパに働きかけ老廃物を排泄します。\n美白・むくみ除去効果があります。" },
                 { name: "アロマオイルマッサージ" },
-                { name: "プラチナビタミンCマスク", description: "プラチナ美容液とビタミンCトリートメントウォーターをしみこませたマスク\nキメの整った輝き肌に整えます" }
+                { name: "プラチナビタミンCマスク", description: "プラチナ美容液とビタミンCトリートメントウォーターをしみこませたマスク。\nキメの整った輝き肌に整えます。" }
               ]
             },
             {
               name: "アンチエイジング",
               steps: [
-                { name: "筋肉マッサージ", description: "筋肉に働きかけリフトアップ効果\nしわ・たるみに効果があります" },
+                { name: "筋肉マッサージ", description: "筋肉に働きかけリフトアップ効果。\nしわ・たるみに効果があります。" },
                 { name: "リフトアップマッサージ" },
-                { name: "コラーゲンリフトマスク", description: "ハリや弾力をキープするリフトアップマスク\n肌を艶やかに整えます" }
+                { name: "コラーゲンリフトマスク", description: "ハリや弾力をキープするリフトアップマスク。\n肌を艶やかに整えます。" }
               ]
             }
           ],
@@ -254,6 +255,11 @@ export const ESTHE_MENU: HeadSpaCourse[] = [
     ]
   },
   {
+    name: "ブライダルコース",
+    features: "特別な日のためのビューティーケア",
+    price: "10,000円"
+  },
+  {
     name: "Men's エステ",
     features: "清潔感は顔で9割決まる。月に1度の肌メンテ",
     items: [
@@ -276,7 +282,7 @@ export const ESTHE_MENU: HeadSpaCourse[] = [
 export const ESTHE_NOTES = [
   {
     title: "Men's エステご希望の方",
-    content: "カット・カラー・パーマのプラス料金になります。\nエステのみご希望の方は、シェービング(￥2,000)のプラス料金になります。"
+    content: "カット・カラー・パーマのプラス料金になります。\nエステのみご希望の方は、シェービング(2,000円)のプラス料金になります。"
   },
   {
     title: "お悩みのある方",

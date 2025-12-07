@@ -200,6 +200,13 @@ const Esthe: React.FC = () => {
                 </p>
               )}
 
+              {/* Price for single item course (like Bridal) */}
+              {!course.items && course.price && (
+                <div className="flex justify-end items-baseline gap-3 text-subtext mb-6">
+                  <span className="text-xl font-medium text-text">{course.price}</span>
+                </div>
+              )}
+
               {/* Sub Items */}
               {course.items && (
                 <div className="space-y-8">

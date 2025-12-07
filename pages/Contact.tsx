@@ -9,18 +9,18 @@ const Contact: React.FC = () => {
       <SectionTitle en="CONTACT" ja="ご予約・お問い合わせ" />
 
       <p className="mb-12 text-text leading-loose">
-        当店は電話予約優先となっております。<br/>
+        当店は電話予約優先となっております。<br />
         ご予約、ご質問はお気軽にお電話ください。
       </p>
 
       <div className="bg-secondary/20 p-12 rounded-sm mb-12">
-        <a 
+        <a
           href={`tel:${SHOP_INFO.phone}`}
           className="inline-flex flex-col items-center group"
         >
           <div className="flex items-center gap-3 text-accent mb-2">
             <Phone size={24} className="group-hover:scale-110 transition-transform" />
-            <span className="text-2xl md:text-4xl tracking-widest font-medium border-b border-transparent group-hover:border-accent transition-all">
+            <span className="text-xl md:text-4xl tracking-widest font-medium border-b border-transparent group-hover:border-accent transition-all">
               {SHOP_INFO.phone}
             </span>
           </div>

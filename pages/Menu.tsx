@@ -97,7 +97,7 @@ const Menu: React.FC = () => {
 
       <div className="mt-16 p-6 bg-secondary/30 rounded text-center">
         <p className="text-sm text-subtext mb-4">
-          より詳しいリラクゼーションメニューはこちら
+          詳しいリラクゼーションメニューはこちら
         </p>
         <div className="flex flex-col md:flex-row justify-center gap-4">
           <Button to="/headspa" subtitle="ヘッドスパ">HEAD SPA</Button>
