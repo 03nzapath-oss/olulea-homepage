@@ -30,8 +30,8 @@ const Contact: React.FC = () => {
 
       <div className="text-left md:text-center inline-block">
         <h3 className="text-accent tracking-widest mb-4 border-b border-accent/30 pb-1 inline-block">受付時間</h3>
-        <p className="text-text mb-2">8:30 〜 19:00</p>
-        <p className="text-text">19:00 〜 21:00 <span className="text-xs text-subtext">（当日18:30までにご予約ください）</span></p>
+        <p className="text-text mb-2">9:00 〜 19:00</p>
+        <p className="text-xs text-subtext">19:00以降のご予約は要相談</p>
       </div>
     </div>
   );

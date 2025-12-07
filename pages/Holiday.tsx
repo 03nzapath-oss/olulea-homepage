@@ -36,12 +36,10 @@ const Holiday: React.FC = () => {
             <ul className="space-y-4 text-text leading-relaxed">
               <li>
                 <span className="font-medium block mb-1">通常営業</span>
-                8:30 〜 19:00
+                9:00 〜 19:00
               </li>
               <li>
-                <span className="font-medium block mb-1">ナイター営業</span>
-                19:00 〜 21:00<br />
-                <span className="text-xs text-subtext">※完全予約制（当日18:30までにご予約ください）</span>
+                <span className="text-xs text-subtext">※19:00以降のご予約は要相談</span>
               </li>
             </ul>
           </div>

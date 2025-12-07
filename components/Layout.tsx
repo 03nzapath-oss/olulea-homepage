@@ -97,7 +97,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="text-xs text-subtext space-y-2 mb-8 leading-relaxed">
           <p>{SHOP_INFO.address}</p>
           <p className="tracking-widest">{SHOP_INFO.phone}</p>
-          <p>Open 8:30 - 19:00</p>
+          <p>Open 9:00 - 19:00</p>
         </div>
 
         <p className="text-[10px] text-gray-400 tracking-wider">

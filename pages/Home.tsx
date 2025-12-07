@@ -96,7 +96,7 @@ const Home: React.FC = () => {
           <div className="space-y-6 text-center md:text-left">
             <div>
               <h4 className="text-accent tracking-widest mb-2">OPEN</h4>
-              <p className="text-sm text-subtext">8:30〜19:00 / 19:00〜21:00 (完全予約制)</p>
+              <p className="text-sm text-subtext">9:00〜19:00 / 19:00以降は要相談</p>
             </div>
             <div>
               <h4 className="text-accent tracking-widest mb-2">CLOSE</h4>
