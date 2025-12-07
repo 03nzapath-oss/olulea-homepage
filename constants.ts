@@ -389,7 +389,7 @@ export const HEADSPA_PRICE: HeadSpaCourse[] = [
         name: "プラスラメラ",
         duration: "",
         price: "プラス500円",
-        description: "全てのメニューにプラスできます。\nホームケアにもおすすめです。\n（通常のカット・カラー・パーマにも可）"
+        description: "全てのメニューにラメラ美容をプラスできます。\nホームケアにもおすすめです。\n（通常のカット・カラー・パーマにも可）"
       }
     ]
   }
