@@ -188,7 +188,7 @@ const Esthe: React.FC = () => {
             <div className="p-6 md:p-8">
               {/* Features */}
               {course.features && (
-                <p className="text-sm text-accent font-medium mb-6">
+                <p className="text-xs text-accent font-medium mb-6">
                   {course.features}
                 </p>
               )}
