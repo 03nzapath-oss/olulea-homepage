@@ -119,7 +119,7 @@ export const ESTHE_MENU: HeadSpaCourse[] = [
       },
       {
         name: "オリジナル",
-        description: "クレンジング\n↓\nお顔そり\n↓\nリンパマッサージ（機器を使ってリンパに働きかけ老廃物を排泄します。美白効果・むくみ除去効果があります）\n↓\nアロマオイルマッサージ\n↓\n個別マスク（肌質・肌状態に合わせてマスクを選びます）\n↓\n眉カット\n↓\nスキンアップ",
+        description: "クレンジング\n↓\nお顔そり\n↓\nリンパマッサージ（機器を使ってリンパに働きかけ老廃物を排泄します。美白効果・むくみ除去効果があります。）\n↓\nアロマオイルマッサージ\n↓\n個別マスク（肌質・肌状態に合わせてマスクを選びます。）\n↓\n眉カット\n↓\nスキンアップ",
         variations: [
           {
             note: "フェイシャルのみ",
@@ -377,7 +377,7 @@ export const HEADSPA_PRICE: HeadSpaCourse[] = [
         name: "YUMEシャンプーラメラ",
         duration: "30分",
         price: "3,100円",
-        description: "YUMEシャンプー後にマスクします。\n（ブロー込み）"
+        description: "YUMEシャンプー後にラメラ美容とマスクを施します。\n（ブロー込み）"
       }
     ]
   },
