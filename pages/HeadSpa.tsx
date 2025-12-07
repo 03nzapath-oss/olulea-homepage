@@ -71,7 +71,7 @@ const HeadSpa: React.FC = () => {
                           </div>
                         </div>
                         {item.description && (
-                          <p className="text-sm text-subtext leading-relaxed pl-1">
+                          <p className="text-sm text-subtext leading-relaxed pl-1 whitespace-pre-line">
                             {item.description}
                           </p>
                         )}
@@ -85,7 +85,7 @@ const HeadSpa: React.FC = () => {
         </div>
 
         <div className="mt-12 text-center">
-          <p className="text-sm text-accent font-medium bg-accent/10 inline-block px-6 py-3 rounded-full">
+          <p className="text-sm text-accent font-medium bg-accent/10 inline-block px-6 py-3 rounded-full whitespace-pre-line">
             {HEADSPA_NOTE}
           </p>
         </div>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import SectionTitle from '../components/SectionTitle';
-import { ESTHE_MENU, ESTHE_NOTE } from '../constants';
+import { ESTHE_MENU, ESTHE_NOTES } from '../constants';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 import { HeadSpaCourse } from '../types';
 
@@ -170,6 +170,13 @@ const Esthe: React.FC = () => {
     <div className="container mx-auto px-6 py-12 md:py-24 max-w-4xl">
       <SectionTitle en="ESTHE" ja="エステ" />
 
+      <div className="text-center mb-12">
+        <p className="text-subtext leading-loose">
+          お肌のコンディションを整え、ハリのある明るい印象に導きます。<br />
+          極上のリラックスタイムをお過ごしください。
+        </p>
+      </div>
+
       <div className="space-y-12">
         {ESTHE_MENU.map((course, i) => (
           <div key={i} className="bg-white rounded-sm overflow-hidden shadow-sm border border-gray-100">
@@ -206,12 +213,13 @@ const Esthe: React.FC = () => {
         ))}
       </div>
 
-      <div className="mt-12 text-center">
-        <div className="inline-block bg-accent/5 border border-accent/20 p-6 rounded-sm max-w-2xl">
-          <p className="text-sm text-subtext leading-loose whitespace-pre-line">
-            {ESTHE_NOTE}
-          </p>
-        </div>
+      <div className="mt-12 flex flex-col items-center gap-6">
+        {ESTHE_NOTES.map((note, index) => (
+          <div key={index} className="text-sm text-accent font-medium bg-accent/10 inline-block px-8 py-5 rounded-full text-center max-w-2xl w-full md:w-auto">
+            <span className="font-bold text-base block mb-2">{note.title}</span>
+            <span className="block whitespace-pre-line leading-relaxed">{note.content}</span>
+          </div>
+        ))}
       </div>
     </div>
   );

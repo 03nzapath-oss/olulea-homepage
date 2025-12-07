@@ -255,7 +255,7 @@ export const ESTHE_MENU: HeadSpaCourse[] = [
   },
   {
     name: "Men's エステ",
-    features: "清潔感は顔で9割決まる。月に1度のスペシャルケア",
+    features: "清潔感は顔で9割決まる。月に1度の肌メンテ",
     items: [
       {
         name: "クイックコース",
@@ -273,7 +273,16 @@ export const ESTHE_MENU: HeadSpaCourse[] = [
   }
 ];
 
-export const ESTHE_NOTE = "カット・カラー・パーマのプラス料金になります。\nエステのみご希望の方 シェービング(￥2,000)のプラス料金になります。\nお悩みのある方 お気軽にご相談ください。";
+export const ESTHE_NOTES = [
+  {
+    title: "Men's エステご希望の方",
+    content: "カット・カラー・パーマのプラス料金になります。\nエステのみご希望の方は、シェービング(￥2,000)のプラス料金になります。"
+  },
+  {
+    title: "お悩みのある方",
+    content: "どうぞお気軽にご相談ください。"
+  }
+];
 
 export const HEADSPA_STEPS: SpaStep[] = [
   { step: 1, title: "ライムクレンジング" },
@@ -298,31 +307,7 @@ export const HEADSPA_PRICE: HeadSpaCourse[] = [
     duration: "70分",
     price: "7,000円",
     features: "シャンプーマッサージ＋美容液マッサージ＋YUMEスペース",
-    description: "ミストを使い毎日のシャンプーでは落としきれない毛穴の詰まりをとり除き、シャンプーマッサージ、美容液マッサージ、なりたい髪に合わせたリペア剤を内部まで浸透させていきます。\n頭皮も髪も心もよみがえります。\nクレンジング、トリートメント両方できるコースです。"
-  },
-  {
-    name: "リッチコース",
-    features: "シャンプーマッサージ＋美容液マッサージ＋YUMEスペース",
-    items: [
-      {
-        name: "スキャルプスパ",
-        duration: "45分",
-        price: "5,500円",
-        description: "毛穴の詰まりをミストで浸透を高め、浮かせて落とします。"
-      },
-      {
-        name: "リッチスパ",
-        duration: "50分",
-        price: "6,000円",
-        description: "根元の立ち上がり、毛先のまとまり、髪の芯から整えていきます。"
-      },
-      {
-        name: "カラーパーマスパ",
-        duration: "50分",
-        price: "5,500円",
-        description: "本日カラー又はパーマを施術した方専用です。\n施術の持ちが良くなります。"
-      }
-    ]
+    description: "ミストとマッサージで、\n毎日のシャンプーでは落としきれない毛穴汚れまでしっかり洗浄。\n髪質やお悩みに合わせて、美容液をじっくり浸透させます。\n\n頭皮も髪も、心までふっと軽くなるリラックスタイム。\nクレンジングとトリートメント、どちらも叶う贅沢コースです。\nプライベートなYUME空間で、極上のひとときを。"
   },
   {
     name: "ベーシックコース",
@@ -344,7 +329,31 @@ export const HEADSPA_PRICE: HeadSpaCourse[] = [
         name: "トリートメントスパ",
         duration: "30分",
         price: "3,500円",
-        description: "本日カラー又はパーマを施術した方専用です。\n施術の持ちが良くなります。"
+        description: "当日カラーまたはパーマを施術した方専用です。\n施術の持ちが良くなります。"
+      }
+    ]
+  },
+  {
+    name: "リッチコース",
+    features: "シャンプーマッサージ＋美容液マッサージ＋YUMEスペース",
+    items: [
+      {
+        name: "スキャルプスパ",
+        duration: "45分",
+        price: "5,500円",
+        description: "毛穴の詰まりをミストで浸透を高め、浮かせて落とします。"
+      },
+      {
+        name: "リッチスパ",
+        duration: "50分",
+        price: "6,000円",
+        description: "根元の立ち上がり、毛先のまとまり、\n髪の芯から整えていきます。"
+      },
+      {
+        name: "カラーパーマスパ",
+        duration: "50分",
+        price: "5,500円",
+        description: "当日カラー又はパーマを施術した方専用です。\n施術の持ちが良くなります。"
       }
     ]
   },
@@ -356,13 +365,13 @@ export const HEADSPA_PRICE: HeadSpaCourse[] = [
         name: "YUMEシャンプー",
         duration: "25分",
         price: "2,600円",
-        description: "夢心地のシャンプーでリラックス。（ブロー込み）"
+        description: "夢心地のシャンプーでリラックス。\n（ブロー込み）"
       },
       {
         name: "YUMEシャンプーラメラ",
         duration: "30分",
         price: "3,100円",
-        description: "YUMEシャンプー後にマスクします。（ブロー込み）"
+        description: "YUMEシャンプー後にマスクします。\n（ブロー込み）"
       }
     ]
   },
@@ -379,7 +388,7 @@ export const HEADSPA_PRICE: HeadSpaCourse[] = [
   }
 ];
 
-export const HEADSPA_NOTE = "カット、カラー、パーマとの組み合わせで1000円offです。プラスラメラのみ割引きになりません。";
+export const HEADSPA_NOTE = "カット、カラー、パーマとの組み合わせで1,000円off。\nプラスラメラのみ割引きになりません。";
 
 export const NAV_LINKS = [
   { path: "/", label: "TOP" },
