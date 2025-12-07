@@ -17,6 +17,14 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+/* Mobile font size adjustment: +2pt approx */
+@media (max-width: 768px) {
+    html {
+        font-size: 112.5%;
+        /* 16px * 1.125 = 18px */
+    }
+}
+
 /* Hide scrollbar for Chrome, Safari and Opera */
 .no-scrollbar::-webkit-scrollbar {
     display: none;

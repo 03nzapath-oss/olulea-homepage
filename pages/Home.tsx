@@ -36,7 +36,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Intro Message */}
-      <section className="py-20 md:py-32 px-6 container mx-auto text-center">
+      <section className="py-12 md:py-20 px-6 container mx-auto text-center">
         <p className="text-base md:text-lg leading-loose tracking-wider text-text mb-8">
           群馬のみどり市にあるヘアサロン。<br />
           どなたでも安心して通える「ケア理容師」がいるお店です。<br />
