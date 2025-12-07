@@ -257,6 +257,7 @@ export const ESTHE_MENU: HeadSpaCourse[] = [
   {
     name: "ブライダルコース",
     features: "特別な日のためのビューティーケア",
+    duration: "80分〜",
     price: "10,000円"
   },
   {
