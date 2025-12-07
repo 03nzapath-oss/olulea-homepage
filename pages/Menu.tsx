@@ -104,6 +104,8 @@ const Menu: React.FC = () => {
           <Button to="/esthe" subtitle="エステ">ESTHE</Button>
         </div>
       </div>
+
+      <p className="text-xs text-subtext text-center mt-8">※表示価格はすべて税込です</p>
     </div>
   );
 };
