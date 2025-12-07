@@ -11,7 +11,7 @@ const Menu: React.FC = () => {
     if (item.subcategory && item.items) {
       return (
         <div key={item.subcategory} className="mb-6">
-          <h5 className="text-sm text-accent/80 mb-3 font-medium">
+          <h5 className="text-xs text-accent/80 mb-3 font-medium">
             {item.subcategory}
           </h5>
           <ul className="space-y-2 ml-4">

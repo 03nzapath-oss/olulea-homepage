@@ -14,9 +14,9 @@ const Concept: React.FC = () => {
             <span className="text-accent font-medium">LEA</span> ＝ 喜び・幸せ
           </p>
           <p className="text-subtext text-sm md:text-base">
-            ハワイ語で「心地よい」を意味するOLUOLUと、「喜び・幸せ」を意味するLEA。<br/>
+            ハワイ語で「心地よい」を意味するOLUOLUと、<br/>「喜び・幸せ」を意味するLEA。<br/>
             この二つの言葉を合わせて「OLU’LEA（オルレア）」と名付けました。<br/><br/>
-            ただ髪を切る場所ではなく、訪れるたびに心が安らぎ、<br/>
+            ただ髪を切る場所ではなく、<br/>訪れるたびに心が安らぎ、<br/>
             新しい自分に出会う喜びを感じていただける。<br/>
             そんな「お客様に喜ばれる優しいサロン」を目指しています。
           </p>
@@ -30,7 +30,7 @@ const Concept: React.FC = () => {
           <p className="text-subtext text-sm md:text-base">
             頭皮と髪のケアはもちろん、心のケアも大切にしています。<br/>
             カット、カラー、パーマといった基本メニューに加え、<br/>
-            10種類の香りから選べるヘッドスパ、エステ、アームマッサージなど、<br/>
+            10種類の香りから選べるヘッドスパ、エステなど、<br/>
             リラクゼーションメニューを豊富にご用意しております。<br/>
             <br/>
             また、個室も完備しており、プライベートな空間でゆったりとお過ごしいただけます。
@@ -40,7 +40,7 @@ const Concept: React.FC = () => {
         <section>
           <h3 className="text-xl md:text-2xl text-accent mb-6 font-light">どなたでも安心して通える場所に</h3>
           <p className="text-subtext text-sm md:text-base">
-            当店では「ケア理容師」の資格を取得しております（平成17年2月24日認定）。<br/>
+            当店では「ケア理容師」の資格を取得しております。（平成17年2月24日認定）<br/>
             ご高齢の方や介護が必要な方、お体が不自由な方にも、<br/>
             安心してご利用いただける環境と技術を提供いたします。<br/>
             <br/>

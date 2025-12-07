@@ -39,7 +39,7 @@ const Home: React.FC = () => {
       <section className="py-12 md:py-20 px-6 container mx-auto text-center">
         <p className="text-base md:text-lg leading-loose tracking-wider text-text mb-8">
           群馬みどり市にあるヘアサロン。<br />
-          髪も心もリセットできる空間を提供します。<br />
+          髪と心のリラックス空間。<br />
           <br />
           どなたでも安心して通える<br />
           「ケア理容師」がいるお店です。
