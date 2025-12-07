@@ -18,7 +18,7 @@ const Menu: React.FC = () => {
             {item.items.map((subItem, i) => (
               <li
                 key={i}
-                className={`flex justify-between items-baseline group ${subItem.name === '高校生' ? 'mt-4' : ''
+                className={`flex justify-between items-baseline group ${subItem.name === '高校生' ? 'mt-6' : ''
                   }`}
               >
                 <span className="text-text text-sm tracking-wide group-hover:text-accent transition-colors">

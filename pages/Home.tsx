@@ -12,7 +12,6 @@ const Home: React.FC = () => {
       <section className="relative h-[60vh] md:h-[80vh] w-full bg-secondary flex items-center justify-center overflow-hidden">
         <Image
           src={IMAGES.hero.main}
-          srcMobile={IMAGES.hero.mainMobile}
           fallbackSrc={FALLBACK_IMAGES.hero}
           alt="Salon Interior"
           className="absolute inset-0 w-full h-full object-cover opacity-80"
