@@ -110,6 +110,7 @@ const Home: React.FC = () => {
               <Button to="/access" subtitle="アクセス">ACCESS</Button>
               <Button to="/contact" subtitle="ご予約">RESERVE</Button>
             </div>
+            <p className="text-xs text-subtext mt-3 text-center md:text-left">ご予約はお気軽にお電話ください</p>
           </div>
         </div>
       </section>
