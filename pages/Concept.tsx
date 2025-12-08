@@ -15,7 +15,9 @@ const Concept: React.FC = () => {
           </p>
           <p className="text-subtext text-sm md:text-base">
             ハワイ語で「心地よい」を意味するOLUOLUと、<br />「喜び・幸せ」を意味するLEA。<br />
-            この二つの言葉を合わせて<br />「OLU’LEA（オルレア）」<br />と名付けました。<br /><br />
+            この二つの言葉を合わせて<br />
+            <span className="font-bold">「OLU’LEA（オルレア）」</span><br />
+            と名付けました。<br /><br />
             ただ髪を切る場所ではなく、<br />訪れるたびに心が安らぎ、<br />
             新しい自分に出会う喜びを感じていただける。<br />
             そんな「お客様に喜ばれる優しいサロン」を目指しています。
