@@ -172,7 +172,8 @@ const Esthe: React.FC = () => {
 
       <div className="text-center mb-12">
         <p className="text-subtext leading-loose">
-          お肌のコンディションを整え、ハリのある明るい印象に導きます。<br />
+          お肌のコンディションを整え、<br />
+          ハリのある明るい印象に導きます。<br />
           極上のリラックスタイムをお過ごしください。
         </p>
       </div>
