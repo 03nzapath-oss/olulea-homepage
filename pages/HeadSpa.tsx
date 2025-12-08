@@ -95,7 +95,7 @@ const HeadSpa: React.FC = () => {
       <div className="mt-16 text-center">
         <Button to="/gallery" subtitle="ギャラリー">GALLERY</Button>
         <p className="text-xs text-subtext mt-4">
-          施術のイメージ画像はこちら
+          施術のイメージ写真はこちら
         </p>
       </div>
     </div>
