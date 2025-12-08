@@ -378,7 +378,7 @@ export const HEADSPA_PRICE: HeadSpaCourse[] = [
         name: "YUMEシャンプーラメラ",
         duration: "30分",
         price: "3,100円",
-        description: "YUMEシャンプー後に頭皮のうるおいを整えるラメラマスクを施します。\n（ブロー込み）"
+        description: "YUMEシャンプ後に、ラメラヘアマスクを施します。\n（ブロー込み）"
       }
     ]
   },
@@ -389,7 +389,7 @@ export const HEADSPA_PRICE: HeadSpaCourse[] = [
         name: "プラスラメラ",
         duration: "",
         price: "プラス500円",
-        description: "全てのメニューに頭皮のラメラケアをプラスできます。\n乾燥やかゆみが気になる方におすすめです。\n（通常のカット・カラー・パーマにも可）"
+        description: "全てのメニューにラメラヘアマスクをプラスできます。\n髪のダメージを内部から補修します。\n（通常のカット・カラー・パーマにも可）"
       }
     ]
   }
