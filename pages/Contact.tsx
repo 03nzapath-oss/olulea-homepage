@@ -28,7 +28,7 @@ const Contact: React.FC = () => {
         </a>
       </div>
 
-      <div className="text-left md:text-center inline-block">
+      <div className="text-center">
         <h3 className="text-accent tracking-widest mb-4 border-b border-accent/30 pb-1 inline-block">受付時間</h3>
         <p className="text-text mb-2">9:00 〜 19:00</p>
         <p className="text-xs text-subtext">19:00以降のご予約は要相談</p>

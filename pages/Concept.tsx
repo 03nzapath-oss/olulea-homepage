@@ -6,7 +6,7 @@ const Concept: React.FC = () => {
     <div className="container mx-auto px-6 py-12 md:py-24 max-w-3xl">
       <SectionTitle en="CONCEPT" ja="コンセプト" />
 
-      <div className="space-y-16 text-center md:text-left leading-loose tracking-wide text-text">
+      <div className="space-y-16 text-left leading-loose tracking-wide text-text">
         <section>
           <h3 className="text-xl md:text-2xl text-accent mb-6 font-light">OLU’LEAに込めた想い</h3>
           <p className="mb-6">
@@ -25,7 +25,7 @@ const Concept: React.FC = () => {
         <section>
           <h3 className="text-xl md:text-2xl text-accent mb-6 font-light">心身のケアと寄り添う技術</h3>
           <div className="aspect-video w-full bg-secondary mb-8 overflow-hidden rounded-sm">
-            <img src="https://picsum.photos/seed/olulea_concept/1200/800" alt="Relaxing atmosphere" className="w-full h-full object-cover" />
+            <img src={`${import.meta.env.BASE_URL}images/concept/main.jpg`} alt="Relaxing atmosphere" className="w-full h-full object-cover" />
           </div>
           <p className="text-subtext text-sm md:text-base">
             頭皮と髪のケアはもちろん、<br />心のケアも大切にしています。<br />

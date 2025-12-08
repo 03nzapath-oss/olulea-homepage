@@ -22,7 +22,7 @@ const Gallery: React.FC = () => {
       </div>
 
       <p className="text-center text-xs text-subtext mt-12">
-        店内の様子やヘアスタイルのイメージです。
+        当店の施術や使用するアイテムのイメージです。
       </p>
     </div>
   );

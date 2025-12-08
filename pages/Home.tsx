@@ -14,8 +14,10 @@ const Home: React.FC = () => {
           src={IMAGES.hero.main}
           fallbackSrc={FALLBACK_IMAGES.hero}
           alt="Salon Interior"
-          className="absolute inset-0 w-full h-full object-cover opacity-80"
+          className="absolute inset-0 w-full h-full object-cover blur-[2.5px] scale-105"
         />
+        {/* 極薄い白いオーバーレイ */}
+        <div className="absolute inset-0 bg-white/[0.35]"></div>
         <div className="relative z-10 text-center bg-white/80 p-8 md:p-12 backdrop-blur-sm max-w-lg mx-4">
           <p className="text-xs md:text-sm tracking-[0.3em] text-accent/80 mb-2">
             hair relaxation salon
