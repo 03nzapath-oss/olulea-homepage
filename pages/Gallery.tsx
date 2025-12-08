@@ -21,10 +21,20 @@ const Gallery: React.FC = () => {
         ))}
       </div>
 
-      <p className="text-center text-xs text-subtext mt-12">
+      <p className="text-center text-xs text-subtext mt-12 mb-10">
         当店の施術や使用するアイテムのイメージです。
       </p>
-    </div>
+      <p className="text-center text-sm text-subtext leading-loose max-w-2xl mx-auto">
+        当店のヘッドスパでは、<br className="md:hidden" />
+        髪と頭皮の一体ケアを目的とした<br />
+        サロン専用シャンプー&amp;トリートメント<br className="md:hidden" />
+        「エステシモ」を使用しています。<br />
+        続けるほどに頭皮が健やかに整い、<br className="md:hidden" />
+        髪そのものが美しく育ちます。<br />
+        施術でもホームケアでも、<br className="md:hidden" />
+        長く安心してお使いいただけます。
+      </p>
+    </div >
   );
 };
 
