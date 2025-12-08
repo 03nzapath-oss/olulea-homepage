@@ -7,7 +7,7 @@ export const SHOP_INFO = {
   phone: "0277-32-5543",
   hours: [
     "9:00〜19:00",
-    "19:00以降のご予約は要相談"
+    "19:00以降のご予約は事前のお電話にて要相談"
   ],
   access: [
     "R50から700m",
@@ -395,7 +395,7 @@ export const HEADSPA_PRICE: HeadSpaCourse[] = [
   }
 ];
 
-export const HEADSPA_NOTE = "カット・カラー・パーマとの組み合わせで1,000円off。\nプラスラメラのみ割引きになりません。";
+export const HEADSPA_NOTE = "カット・カラー・パーマとの組み合わせで1,000円off\n*プラスラメラのみ割引きになりません";
 
 export const NAV_LINKS = [
   { path: "/", label: "TOP" },

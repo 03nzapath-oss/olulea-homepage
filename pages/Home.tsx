@@ -39,7 +39,7 @@ const Home: React.FC = () => {
 
       {/* Intro Message */}
       <section className="py-12 md:py-20 px-6 container mx-auto text-center">
-        <p className="text-base md:text-lg leading-loose tracking-wider text-text mb-8">
+        <p className="text-base md:text-lg leading-loose tracking-wider text-text mb-12">
           群馬みどり市にあるヘアサロン。<br />
           髪と心のリラックス空間。<br />
           <br />
@@ -98,7 +98,7 @@ const Home: React.FC = () => {
           <div className="space-y-6 text-center md:text-left">
             <div>
               <h4 className="text-accent tracking-widest mb-2">OPEN</h4>
-              <p className="text-sm text-subtext">9:00〜19:00 / 19:00以降は要相談</p>
+              <p className="text-sm text-subtext">9:00〜19:00</p>
             </div>
             <div>
               <h4 className="text-accent tracking-widest mb-2">CLOSE</h4>

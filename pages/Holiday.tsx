@@ -35,11 +35,13 @@ const Holiday: React.FC = () => {
             <h3 className="text-lg text-accent tracking-widest mb-6 border-b border-accent/30 pb-2">営業時間</h3>
             <ul className="space-y-4 text-text leading-relaxed">
               <li>
-                <span className="font-medium block mb-1">通常営業</span>
                 9:00 〜 19:00
               </li>
               <li>
-                <span className="text-xs text-subtext">※19:00以降のご予約は要相談</span>
+                <span className="text-xs text-subtext">
+                  ※19:00以降のご予約は<br />
+                  事前のお電話にて要相談
+                </span>
               </li>
             </ul>
           </div>
