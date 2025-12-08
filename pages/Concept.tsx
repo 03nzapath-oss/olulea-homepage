@@ -22,7 +22,7 @@ const Concept: React.FC = () => {
               と名付けました。
               <br /><br />
               ただ髪を切る場所ではなく、<br className="md:hidden" />
-              訪れるたびに心が安らぎ、<br className="md:hidden" />
+              訪れるたびに心が安らぎ、<br />
               新しい自分に出会う喜びを感じていただける。<br />
               そんな「お客様に喜ばれる優しいサロン」を目指しています。
             </p>
@@ -37,9 +37,10 @@ const Concept: React.FC = () => {
           <div className="text-subtext text-sm md:text-base">
             <p>
               頭皮と髪のケアはもちろん、<br className="md:hidden" />
-              心のケアも大切にしています。<br />
-              カット、カラー、パーマに加え、<br className="md:hidden" />
-              頭皮と髪に合わせて選べるヘッドスパや、<br className="md:hidden" />
+              心のケアも大切にしています。
+              <br /><br />
+              カット、カラー、パーマに加え、<br />
+              頭皮と髪に合わせて選べるヘッドスパや、<br />
               エステなどのリラクゼーションメニューも<br className="md:hidden" />
               用意しております。
               <br /><br />
@@ -56,7 +57,7 @@ const Concept: React.FC = () => {
               当店ではケア理容師の資格を取得しております。<br className="md:hidden" />
               （平成17年2月24日認定）
               <br /><br />
-              ご高齢の方やお体が不自由な方にも、<br className="md:hidden" />
+              ご高齢の方やお体が不自由な方にも、<br />
               安心してご利用いただける環境と技術を提供いたします。
               <br /><br />
               どんな些細なことでも、<br className="md:hidden" />
