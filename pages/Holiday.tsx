@@ -39,7 +39,7 @@ const Holiday: React.FC = () => {
               </li>
               <li>
                 <span className="text-xs text-subtext">
-                  ※19:00以降のご予約は<br />
+                  ＊19:00以降のご予約は<br />
                   事前のお電話にて要相談
                 </span>
               </li>
