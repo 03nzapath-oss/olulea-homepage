@@ -1,5 +1,6 @@
 import React from 'react';
 import SectionTitle from '../components/SectionTitle';
+import Button from '../components/Button';
 import { HEADSPA_PRICE, HEADSPA_NOTE } from '../constants';
 
 const HeadSpa: React.FC = () => {
@@ -89,6 +90,13 @@ const HeadSpa: React.FC = () => {
             {HEADSPA_NOTE}
           </p>
         </div>
+      </div>
+
+      <div className="mt-16 text-center">
+        <Button to="/gallery" subtitle="ギャラリー">GALLERY</Button>
+        <p className="text-xs text-subtext mt-4">
+          施術のイメージ画像はこちら
+        </p>
       </div>
     </div>
   );
