@@ -26,9 +26,9 @@ const Gallery: React.FC = () => {
       </p>
       <p className="text-center text-sm text-subtext leading-loose max-w-2xl mx-auto">
         当店のヘッドスパでは、<br className="md:hidden" />
-        髪と頭皮の一体ケアを目的とした<br />
+        髪と頭皮の一体ケアを目的とした「エステシモ」の<br />
         サロン専用シャンプー&amp;トリートメント<br className="md:hidden" />
-        「エステシモ」を使用しています。<br />
+        を使用しています。<br />
         続けるほどに頭皮が健やかに整い、<br className="md:hidden" />
         髪そのものが美しく育ちます。<br />
         施術でもホームケアでも、<br className="md:hidden" />
