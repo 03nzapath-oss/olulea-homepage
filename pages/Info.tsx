@@ -31,7 +31,7 @@ const Info: React.FC = () => {
             <dt className="text-accent tracking-widest text-sm md:text-right">HOURS</dt>
             <dd className="md:col-span-3 text-text space-y-1">
               {SHOP_INFO.hours.map((h, i) => (
-                <p key={i}>{h}</p>
+                <p key={i} className={i === 1 ? "text-xs text-subtext mt-1" : ""}>{h}</p>
               ))}
             </dd>
           </div>

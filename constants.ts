@@ -152,7 +152,7 @@ export const ESTHE_MENU: HeadSpaCourse[] = [
             {
               name: "アンチエイジング",
               steps: [
-                { name: "筋肉マッサージ", description: "筋肉に働きかけリフトアップ効果。\nしわ・たるみに効果があります。" },
+                { name: "筋肉マッサージ", description: "筋肉に働きかけてリフトアップ。\nしわ・たるみに効果があります。" },
                 { name: "リフトアップマッサージ" },
                 { name: "コラーゲンリフトマスク", description: "ハリや弾力をキープするリフトアップマスク。\n肌を艶やかに整えます。" }
               ]
