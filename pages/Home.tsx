@@ -85,7 +85,7 @@ const Home: React.FC = () => {
       <section className="py-20 container mx-auto px-6">
         <SectionTitle en="INFORMATION" ja="ご案内" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto items-center">
-          <div className="aspect-square bg-gray-100 overflow-hidden">
+          <div className="aspect-[4/3] bg-gray-100 overflow-hidden rounded-sm">
             <Image
               src={IMAGES.hero.store}
               fallbackSrc={FALLBACK_IMAGES.store}
