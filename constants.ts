@@ -378,7 +378,7 @@ export const HEADSPA_PRICE: HeadSpaCourse[] = [
         name: "YUMEシャンプーラメラ",
         duration: "30分",
         price: "3,100円",
-        description: "YUMEシャンプ後に、ラメラヘアマスクを施します。\n（ブロー込み）"
+        description: "YUMEシャンプー後に、ラメラヘアマスクを施します。\n（ブロー込み）"
       }
     ]
   },
