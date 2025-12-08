@@ -16,14 +16,14 @@ const Concept: React.FC = () => {
           <div className="text-subtext text-sm md:text-base">
             <p>
               ハワイ語で「心地よい」を意味するOLUOLUと、<br className="md:hidden" />
-              「喜び・幸せ」を意味するLEA。<br className="md:hidden" />
+              「喜び・幸せ」を意味するLEA。<br />
               この二つの言葉を合わせて<br className="md:hidden" />
               <span className="font-bold">「OLU’LEA（オルレア）」</span><br className="md:hidden" />
               と名付けました。
-              <br className="md:hidden" /><br className="md:hidden" />
+              <br /><br />
               ただ髪を切る場所ではなく、<br className="md:hidden" />
               訪れるたびに心が安らぎ、<br className="md:hidden" />
-              新しい自分に出会う喜びを感じていただける。<br className="md:hidden" />
+              新しい自分に出会う喜びを感じていただける。<br />
               そんな「お客様に喜ばれる優しいサロン」を目指しています。
             </p>
           </div>
@@ -37,12 +37,12 @@ const Concept: React.FC = () => {
           <div className="text-subtext text-sm md:text-base">
             <p>
               頭皮と髪のケアはもちろん、<br className="md:hidden" />
-              心のケアも大切にしています。<br className="md:hidden" />
+              心のケアも大切にしています。<br />
               カット、カラー、パーマに加え、<br className="md:hidden" />
               頭皮と髪に合わせて選べるヘッドスパや、<br className="md:hidden" />
               エステなどのリラクゼーションメニューも<br className="md:hidden" />
               用意しております。
-              <br className="md:hidden" />
+              <br /><br />
               また、個室も完備しており、<br className="md:hidden" />
               プライベートな空間でゆったりとお過ごしいただけます。
             </p>
@@ -53,12 +53,12 @@ const Concept: React.FC = () => {
           <h3 className="text-xl md:text-2xl text-accent mb-6 font-light">どなたでも安心して通える場所に</h3>
           <div className="text-subtext text-sm md:text-base">
             <p>
-              当店ではケア理容師の資格を取得しております。<br />
+              当店ではケア理容師の資格を取得しております。<br className="md:hidden" />
               （平成17年2月24日認定）
-              <br className="md:hidden" /><br className="md:hidden" />
+              <br /><br />
               ご高齢の方やお体が不自由な方にも、<br className="md:hidden" />
               安心してご利用いただける環境と技術を提供いたします。
-              <br className="md:hidden" /><br className="md:hidden" />
+              <br /><br />
               どんな些細なことでも、<br className="md:hidden" />
               お気軽にご相談ください。
             </p>
