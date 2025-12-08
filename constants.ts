@@ -354,7 +354,7 @@ export const HEADSPA_PRICE: HeadSpaCourse[] = [
         name: "リッチスパ",
         duration: "50分",
         price: "6,000円",
-        description: "髪を芯から整えることで、根元から立ち上がり、\n毛先がまとまっていきます。"
+        description: "髪を芯から整えることで、根元から立ち上がり、毛先がまとまっていきます。"
       },
       {
         name: "カラーパーマスパ",
@@ -378,7 +378,7 @@ export const HEADSPA_PRICE: HeadSpaCourse[] = [
         name: "YUMEシャンプーラメラ",
         duration: "30分",
         price: "3,100円",
-        description: "YUMEシャンプー後に頭皮のうるおいを整える\nラメラマスクを施します。\n（ブロー込み）"
+        description: "YUMEシャンプー後に頭皮のうるおいを整えるラメラマスクを施します。\n（ブロー込み）"
       }
     ]
   },
