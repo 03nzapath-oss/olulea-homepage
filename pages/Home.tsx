@@ -48,6 +48,15 @@ const Home: React.FC = () => {
         </p>
 
         <Button to="/concept" subtitle="コンセプト">CONCEPT</Button>
+
+        <div className="mt-16 max-w-3xl mx-auto">
+          <Image
+            src={IMAGES.concept.intro}
+            fallbackSrc={FALLBACK_IMAGES.concept}
+            alt="Salon Interior"
+            className="w-full h-auto rounded-sm shadow-sm"
+          />
+        </div>
       </section>
 
       {/* Menu Preview */}

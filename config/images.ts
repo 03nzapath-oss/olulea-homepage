@@ -9,6 +9,11 @@ export const IMAGES = {
         store: `${import.meta.env.BASE_URL}images/hero/store.jpg`,
     },
 
+    // コンセプト画像
+    concept: {
+        intro: `${import.meta.env.BASE_URL}images/salon_interior_concept_v2.jpg`,
+    },
+
     // ギャラリー画像
     gallery: [
         { id: 1, path: `${import.meta.env.BASE_URL}images/gallery/1.jpg`, alt: 'サロン内観1' },
@@ -23,6 +28,7 @@ export const IMAGES = {
 // 画像が見つからない場合のフォールバック画像
 export const FALLBACK_IMAGES = {
     hero: 'https://picsum.photos/seed/olulea_hero/1920/1080',
+    concept: 'https://picsum.photos/seed/olulea_concept/1920/1080',
     store: 'https://picsum.photos/seed/olulea_store/800/800',
     gallery: (id: number) => `https://picsum.photos/seed/olulea_${id}/800/800`,
 };
