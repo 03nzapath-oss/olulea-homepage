@@ -11,7 +11,7 @@ export const IMAGES = {
 
     // コンセプト画像
     concept: {
-        intro: `${import.meta.env.BASE_URL}images/salon_interior_concept_v2.jpg`,
+        intro: `${import.meta.env.BASE_URL}images/salon_interior_concept_v3.jpg`,
     },
 
     // ギャラリー画像
