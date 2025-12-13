@@ -22,7 +22,7 @@ const Gallery: React.FC = () => {
       </div>
 
       <p className="text-center text-xs text-subtext mt-8 mb-16">
-        当店の施術や使用するアイテムのイメージです。
+        当店の施術や使用するアイテムのイメージです
       </p>
       <p className="text-center text-sm text-subtext leading-loose max-w-2xl mx-auto">
         当店のヘッドスパでは、<br className="md:hidden" />

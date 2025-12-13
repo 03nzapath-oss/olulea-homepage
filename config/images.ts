@@ -16,7 +16,7 @@ export const IMAGES = {
 
     // ヘッドスパ画像
     headspa: {
-        intro: `${import.meta.env.BASE_URL}images/headspa_intro.jpg`,
+        intro: `${import.meta.env.BASE_URL}images/headspa_intro_v3.jpg`,
     },
 
     // ギャラリー画像
