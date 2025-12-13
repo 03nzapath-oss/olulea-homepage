@@ -14,6 +14,11 @@ export const IMAGES = {
         intro: `${import.meta.env.BASE_URL}images/salon_interior_concept_v3.jpg`,
     },
 
+    // ヘッドスパ画像
+    headspa: {
+        intro: `${import.meta.env.BASE_URL}images/headspa_intro.jpg`,
+    },
+
     // ギャラリー画像
     gallery: [
         { id: 1, path: `${import.meta.env.BASE_URL}images/gallery/1.jpg`, alt: 'サロン内観1' },
@@ -29,6 +34,7 @@ export const IMAGES = {
 export const FALLBACK_IMAGES = {
     hero: 'https://picsum.photos/seed/olulea_hero/1920/1080',
     concept: 'https://picsum.photos/seed/olulea_concept/1920/1080',
+    headspa: 'https://picsum.photos/seed/olulea_headspa/1920/1080',
     store: 'https://picsum.photos/seed/olulea_store/800/800',
     gallery: (id: number) => `https://picsum.photos/seed/olulea_${id}/800/800`,
 };

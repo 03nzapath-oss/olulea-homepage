@@ -1,7 +1,9 @@
 import React from 'react';
 import SectionTitle from '../components/SectionTitle';
 import Button from '../components/Button';
+import Image from '../components/Image';
 import { HEADSPA_PRICE, HEADSPA_NOTE } from '../constants';
+import { IMAGES, FALLBACK_IMAGES } from '../config/images';
 
 const HeadSpa: React.FC = () => {
   return (
@@ -9,11 +11,20 @@ const HeadSpa: React.FC = () => {
       <SectionTitle en="HEAD SPA" ja="ヘッドスパ" />
 
       <div className="text-center mb-12">
-        <p className="text-subtext leading-loose">
+        <p className="text-subtext leading-loose mb-12">
           頭皮の汚れをすっきり落とし、<br />
           心地よいマッサージで血行を促進。<br />
           9通りのシャンプーとトリートメントから、<br />頭皮と髪の状態に合わせてお選びいただけます。
         </p>
+
+        <div className="max-w-xl mx-auto">
+          <Image
+            src={IMAGES.headspa.intro}
+            fallbackSrc={FALLBACK_IMAGES.headspa}
+            alt="Head Spa"
+            className="w-full h-auto rounded-sm shadow-sm"
+          />
+        </div>
       </div>
 
 
