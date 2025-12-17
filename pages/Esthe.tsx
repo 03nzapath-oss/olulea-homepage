@@ -125,9 +125,10 @@ const EstheItem: React.FC<EstheItemProps> = ({ item }) => {
             <div className="space-y-0">
               {item.description.split('↓').map((step, index, array) => {
                 const trimmedStep = step.trim();
-                const match = trimmedStep.match(/^(.+?)[（(](.+)[）)]$/);
+                const match = trimmedStep.match(/^([\s\S]+?)\s*[（(]([\s\S]+)[）)]$/);
                 const mainText = match ? match[1] : trimmedStep;
                 const subText = match ? match[2] : null;
+                const isNote = subText?.trim().startsWith('※');
 
                 return (
                   <div key={index} className="relative flex gap-4">
@@ -143,11 +144,18 @@ const EstheItem: React.FC<EstheItemProps> = ({ item }) => {
 
                     {/* Text */}
                     <div className="text-sm text-subtext leading-relaxed pb-6 pt-0.5">
-                      <span className="font-medium text-text block mb-1">{mainText}</span>
+                      <span className="font-medium text-text block mb-1 whitespace-pre-line">{mainText}</span>
                       {subText && (
-                        <span className="text-xs text-subtext/80 block leading-relaxed">
-                          {subText}
-                        </span>
+                        <div className="text-xs leading-relaxed">
+                          {subText.split('\n').map((line, lIdx) => (
+                            <span
+                              key={lIdx}
+                              className={`block ${line.trim().startsWith('※') ? 'text-text' : 'text-subtext/80'} ${line.trim() === '' ? 'min-h-[1.5em]' : ''}`}
+                            >
+                              {line.trim() === '' ? '\u00A0' : line}
+                            </span>
+                          ))}
+                        </div>
                       )}
                     </div>
                   </div>

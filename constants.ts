@@ -103,7 +103,7 @@ export const MENU_ITEMS: MenuCategory[] = [
 
 export const ESTHE_MENU: HeadSpaCourse[] = [
   {
-    name: "シェービングコース",
+    name: "Ladies' シェービングコース",
     features: "角質と産毛をオフして、ワンランク上の透明肌",
     items: [
       {
@@ -179,7 +179,7 @@ export const ESTHE_MENU: HeadSpaCourse[] = [
     ]
   },
   {
-    name: "エステコース",
+    name: "Ladies' エステコース",
     features: "コンディションを整えて、ハリのある明るい肌へ",
     items: [
       {
@@ -255,7 +255,7 @@ export const ESTHE_MENU: HeadSpaCourse[] = [
     ]
   },
   {
-    name: "ブライダルコース",
+    name: "Ladies' ブライダルコース",
     features: "特別な日のためのビューティーケア",
     duration: "80分〜",
     price: "10,000円"
@@ -268,13 +268,12 @@ export const ESTHE_MENU: HeadSpaCourse[] = [
         name: "クイックコース",
         duration: "プラス15分",
         price: "1,000円",
-        description: "いつものシェービングに・・・\nブラシクレンジング、毛穴のつまりを吸引、クイックマッサージ、クレイマスク"
+        description: "いつものシェービング\n↓\nブラシクレンジング\n↓\n吸引（毛穴のつまりを除去。）\n↓\nクイックマッサージ\n↓\nクレイマスク（皮脂を吸着し、やわらかなツルツル肌に。）"
       },
       {
         name: "癒しコース",
         duration: "プラス25分",
-        price: "2,000円",
-        description: "いつものシェービングに・・・\nクレンジング、リンパマッサージ、毛穴のつまりを吸引、アロマオイルマッサージ、クレイマスク\n※個室での施術になります"
+        description: "いつものシェービング\n↓\nクレンジング（日頃落としきれない肌の汚れを落とします。）\n↓\nリンパマッサージ\n↓\n吸引（毛穴のつまりを除去。）\n↓\nアロマオイルマッサージ（お肌のコンディションに合わせたアロマオイルでリラックス。）\n↓\nクレイマスク（皮脂を吸着し、やわらかなツルツル肌に。\n\n※個室での施術になります。）"
       }
     ]
   }
@@ -283,7 +282,7 @@ export const ESTHE_MENU: HeadSpaCourse[] = [
 export const ESTHE_NOTES = [
   {
     title: "Men's エステご希望の方",
-    content: "カット・カラー・パーマのプラス料金になります。\nエステのみご希望の方は、シェービング(2,000円)のプラス料金になります。"
+    content: "カット・カラー・パーマのプラス料金になります。\nエステのみご希望の方は、シェービング(2,500円)のプラス料金になります。"
   },
   {
     title: "お悩みのある方",
