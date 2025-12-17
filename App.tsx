@@ -6,6 +6,7 @@ import Layout from './components/Layout';
 import Home from './pages/Home';
 import Concept from './pages/Concept';
 import Menu from './pages/Menu';
+import EnglishMenu from './pages/EnglishMenu';
 import HeadSpa from './pages/HeadSpa';
 import Esthe from './pages/Esthe';
 import Info from './pages/Info';
@@ -22,6 +23,7 @@ const App: React.FC = () => {
           <Route path="/" element={<Home />} />
           <Route path="/concept" element={<Concept />} />
           <Route path="/menu" element={<Menu />} />
+          <Route path="/english" element={<EnglishMenu />} />
           <Route path="/headspa" element={<HeadSpa />} />
           <Route path="/esthe" element={<Esthe />} />
           <Route path="/info" element={<Info />} />

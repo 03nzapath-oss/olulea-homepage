@@ -19,7 +19,7 @@ const Home: React.FC = () => {
         {/* 極薄い白いオーバーレイ */}
         <div className="absolute inset-0 bg-white/[0.35]"></div>
         <div className="relative z-10 text-center bg-white/80 p-8 md:p-12 backdrop-blur-sm max-w-lg mx-4">
-          <p className="text-xs md:text-sm tracking-[0.3em] text-accent/80 mb-2">
+          <p className="text-xs md:text-sm tracking-[0.3em] text-accent mb-2">
             hair relaxation salon
           </p>
           <h1 className="text-3xl md:text-4xl font-light tracking-[0.2em] text-accent mb-1">

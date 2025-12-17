@@ -11,7 +11,7 @@ const Menu: React.FC = () => {
     if (item.subcategory && item.items) {
       return (
         <div key={item.subcategory} className="mb-6">
-          <h5 className="text-xs text-accent/80 mb-3 font-medium">
+          <h5 className="text-xs text-accent mb-3 font-medium">
             {item.subcategory}
           </h5>
           <ul className="space-y-2 ml-4">
@@ -102,6 +102,10 @@ const Menu: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-center gap-4">
           <Button to="/headspa" subtitle="ヘッドスパ">HEAD SPA</Button>
           <Button to="/esthe" subtitle="エステ">ESTHE</Button>
+        </div>
+
+        <div className="mt-12 pt-8 border-t border-accent/20">
+          <Button to="/english" subtitle="English">FOR VISITORS</Button>
         </div>
       </div>
 
