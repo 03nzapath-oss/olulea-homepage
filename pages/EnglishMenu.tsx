@@ -41,8 +41,7 @@ const EnglishMenu: React.FC = () => {
                     </ul>
 
                     <p className="text-sm text-subtext bg-secondary/50 p-4 rounded leading-relaxed">
-                        Perfect if you don't want to cut your hair.<br />
-                        Simply relax and enjoy the experience.
+                        Experience the luxury of a Japanese barber without changing your hairstyle.
                     </p>
                 </div>
 
@@ -61,15 +60,14 @@ const EnglishMenu: React.FC = () => {
                     </div>
 
                     <ul className="space-y-2 mb-6 text-text list-disc list-inside marker:text-accent text-sm md:text-base">
-                        <li>Light haircut (no big change)</li>
+                        <li>Maintenance Cut (Trimming & Tidy up)</li>
                         <li>Shampoo & styling</li>
                         <li>Japanese wet shaving</li>
                         <li>Head massage</li>
                     </ul>
 
                     <p className="text-sm text-subtext bg-secondary/50 p-4 rounded leading-relaxed">
-                        We focus on comfort and cleanliness,<br />
-                        not drastic style changes.
+                        We focus on grooming and cleanliness to refresh your look.
                     </p>
                 </div>
 
@@ -97,7 +95,7 @@ const EnglishMenu: React.FC = () => {
 
                     <p className="text-sm text-subtext bg-secondary/50 p-4 rounded leading-relaxed">
                         A full Japanese barber experience.<br />
-                        Slow, careful, and deeply calming.
+                        Careful, unhurried, and deeply calming.
                     </p>
                 </div>
 
