@@ -86,7 +86,7 @@ const EnglishMenu: React.FC = () => {
 
                     <ul className="space-y-2 mb-6 text-text list-disc list-inside marker:text-accent text-sm md:text-base">
                         <li>Haircut & styling</li>
-                        <li>Wet shaving</li>
+                        <li>Japanese wet shaving</li>
                         <li>Facial massage</li>
                         <li>Head massage</li>
                         <li>Ear cleaning</li>
