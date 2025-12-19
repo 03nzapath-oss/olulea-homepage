@@ -24,7 +24,7 @@ const Menu: React.FC = () => {
                 <span className="text-text text-sm tracking-wide group-hover:text-accent transition-colors">
                   {subItem.name}
                 </span>
-                <span className="text-sm text-subtext shrink-0 ml-4">
+                <span className="text-sm text-subtext shrink-0 ml-4 group-hover:text-accent transition-colors">
                   {subItem.price}
                 </span>
               </li>
@@ -54,7 +54,7 @@ const Menu: React.FC = () => {
         <span className="text-text font-medium tracking-wide group-hover:text-accent transition-colors">
           {item.name}
         </span>
-        <span className="text-sm text-subtext shrink-0 ml-4">
+        <span className="text-sm text-subtext shrink-0 ml-4 group-hover:text-accent transition-colors">
           {item.price}
         </span>
       </li>
@@ -84,7 +84,7 @@ const Menu: React.FC = () => {
                     <span className="text-text font-medium tracking-wide group-hover:text-accent transition-colors">
                       {item.name}
                     </span>
-                    <span className="text-sm text-subtext shrink-0 ml-4">
+                    <span className="text-sm text-subtext shrink-0 ml-4 group-hover:text-accent transition-colors">
                       {item.price}
                     </span>
                   </li>
