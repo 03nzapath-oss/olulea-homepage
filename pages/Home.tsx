@@ -29,15 +29,15 @@ const Home: React.FC = () => {
           </p>
           <div className="relative">
             {/* Ripple Effect */}
-            <div className="absolute top-8 left-1/2 w-20 h-20 rounded-full border border-[#A8B29E]/40 opacity-0 animate-ripple pointer-events-none" style={{ animationDelay: '1.2s' }}></div>
-            <div className="absolute top-8 left-1/2 w-20 h-20 rounded-full border border-[#A8B29E]/20 opacity-0 animate-ripple pointer-events-none" style={{ animationDelay: '1.6s' }}></div>
+            <div className="absolute top-8 left-1/2 w-20 h-20 rounded-full border border-[#A9B29F]/40 opacity-0 animate-ripple pointer-events-none" style={{ animationDelay: '1.2s' }}></div>
+            <div className="absolute top-8 left-1/2 w-20 h-20 rounded-full border border-[#A9B29F]/20 opacity-0 animate-ripple pointer-events-none" style={{ animationDelay: '1.6s' }}></div>
 
             <img
               src={`${import.meta.env.BASE_URL}images/logo.svg`}
               alt="OLU'LEA"
               className="h-12 md:h-16 w-auto mx-auto mb-3 relative z-10"
             />
-            <p className="text-xs md:text-sm tracking-widest text-[#A8B29E] mb-6 relative z-10">
+            <p className="text-xs md:text-sm tracking-widest text-[#A9B29F] mb-6 relative z-10">
               オル’レア
             </p>
           </div>
