@@ -16,7 +16,7 @@ const Home: React.FC = () => {
           src={IMAGES.hero.main}
           fallbackSrc={FALLBACK_IMAGES.hero}
           alt="Salon Interior"
-          className="absolute inset-0 w-full h-full object-cover blur-[2.5px] scale-105 saturate-[1.25] contrast-[1.1] brightness-[1.15]"
+          className="absolute inset-0 w-full h-full object-cover blur-[2.5px] scale-105 saturate-[1.35] contrast-[1.1] brightness-[1.15]"
         />
         {/* 極薄い白いオーバーレイ */}
         <div className="absolute inset-0 bg-[#E6EEF5]/[0.5]"></div>
