@@ -51,14 +51,14 @@ const Home: React.FC = () => {
       </section>
 
       {/* Intro Message */}
-      <section className="py-12 md:py-20 px-6 container mx-auto text-center">
+      <section className="py-12 md:py-20 px-3 md:px-6 container mx-auto text-center">
         <div className="text-base md:text-lg leading-loose tracking-wider text-text mb-12">
           <p className="mb-8">
             群馬みどり市にある、ヘアサロン。<br />
             髪と心のリラックス空間。
           </p>
 
-          <div className="my-20 max-w-2xl mx-auto">
+          <div className="my-20 max-w-3xl mx-auto">
             <FadeIn>
               <Image
                 src={IMAGES.home.topRelax}
