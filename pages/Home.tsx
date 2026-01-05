@@ -16,10 +16,10 @@ const Home: React.FC = () => {
           src={IMAGES.hero.main}
           fallbackSrc={FALLBACK_IMAGES.hero}
           alt="Salon Interior"
-          className="absolute inset-0 w-full h-full object-cover blur-[2.5px] scale-105 saturate-[1.2] contrast-[1.1]"
+          className="absolute inset-0 w-full h-full object-cover blur-[2.5px] scale-105 saturate-[1.2] contrast-[1.1] brightness-[1.1]"
         />
         {/* 極薄い白いオーバーレイ */}
-        <div className="absolute inset-0 bg-[#E6EEF5]/[0.45]"></div>
+        <div className="absolute inset-0 bg-[#E6EEF5]/[0.3]"></div>
         <div
           className="relative z-10 text-center bg-white/80 p-8 md:p-12 backdrop-blur-sm max-w-lg mx-4 animate-fade-in opacity-0"
           style={{ animationDelay: '0.5s' }}
@@ -29,15 +29,15 @@ const Home: React.FC = () => {
           </p>
           <div className="relative">
             {/* Ripple Effect */}
-            <div className="absolute top-8 left-1/2 w-20 h-20 rounded-full border border-[#B0BAA6]/40 opacity-0 animate-ripple pointer-events-none" style={{ animationDelay: '1.2s' }}></div>
-            <div className="absolute top-8 left-1/2 w-20 h-20 rounded-full border border-[#B0BAA6]/20 opacity-0 animate-ripple pointer-events-none" style={{ animationDelay: '1.6s' }}></div>
+            <div className="absolute top-8 left-1/2 w-20 h-20 rounded-full border border-[#A8B29E]/40 opacity-0 animate-ripple pointer-events-none" style={{ animationDelay: '1.2s' }}></div>
+            <div className="absolute top-8 left-1/2 w-20 h-20 rounded-full border border-[#A8B29E]/20 opacity-0 animate-ripple pointer-events-none" style={{ animationDelay: '1.6s' }}></div>
 
             <img
               src={`${import.meta.env.BASE_URL}images/logo.svg`}
               alt="OLU'LEA"
-              className="h-12 md:h-16 w-auto mx-auto mb-3 brightness-105 relative z-10"
+              className="h-12 md:h-16 w-auto mx-auto mb-3 relative z-10"
             />
-            <p className="text-xs md:text-sm tracking-widest text-[#B0BAA6] mb-6 relative z-10">
+            <p className="text-xs md:text-sm tracking-widest text-[#A8B29E] mb-6 relative z-10">
               オル’レア
             </p>
           </div>
