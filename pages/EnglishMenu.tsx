@@ -29,7 +29,7 @@ const EnglishMenu: React.FC = () => {
 
                     <div className="flex flex-col md:flex-row justify-between items-start md:items-end border-b border-accent/20 pb-4 mb-4 gap-2">
                         <div className="text-lg font-medium text-accent">60 min</div>
-                        <div className="text-2xl font-bold text-text">¥9,000</div>
+                        <div className="text-2xl font-bold text-text">¥6,000</div>
                     </div>
 
                     <ul className="space-y-2 mb-6 text-text list-disc list-inside marker:text-accent text-sm md:text-base">
@@ -55,7 +55,7 @@ const EnglishMenu: React.FC = () => {
 
                     <div className="flex flex-col md:flex-row justify-between items-start md:items-end border-b border-accent/20 pb-4 mb-4 gap-2">
                         <div className="text-lg font-medium text-accent">90 min</div>
-                        <div className="text-2xl font-bold text-text">¥14,000</div>
+                        <div className="text-2xl font-bold text-text">¥9,000</div>
                     </div>
 
                     <ul className="space-y-2 mb-6 text-text list-disc list-inside marker:text-accent text-sm md:text-base">
@@ -81,7 +81,7 @@ const EnglishMenu: React.FC = () => {
 
                     <div className="flex flex-col md:flex-row justify-between items-start md:items-end border-b border-accent/20 pb-4 mb-4 gap-2">
                         <div className="text-lg font-medium text-accent">120 min</div>
-                        <div className="text-2xl font-bold text-text">¥18,000</div>
+                        <div className="text-2xl font-bold text-text">¥12,000</div>
                     </div>
 
                     <ul className="space-y-2 mb-6 text-text list-disc list-inside marker:text-accent text-sm md:text-base">
