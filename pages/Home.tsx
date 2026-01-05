@@ -16,10 +16,10 @@ const Home: React.FC = () => {
           src={IMAGES.hero.main}
           fallbackSrc={FALLBACK_IMAGES.hero}
           alt="Salon Interior"
-          className="absolute inset-0 w-full h-full object-cover blur-[2.5px] scale-105 saturate-[1.1] brightness-[1.1]"
+          className="absolute inset-0 w-full h-full object-cover blur-[2.5px] scale-105 saturate-[0.95] brightness-[1.15]"
         />
         {/* 極薄い白いオーバーレイ */}
-        <div className="absolute inset-0 bg-white/[0.2]"></div>
+        <div className="absolute inset-0 bg-[#F0F4F8]/[0.3]"></div>
         <div
           className="relative z-10 text-center bg-white/80 p-8 md:p-12 backdrop-blur-sm max-w-lg mx-4 animate-fade-in opacity-0"
           style={{ animationDelay: '0.5s' }}
