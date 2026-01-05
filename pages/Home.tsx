@@ -4,6 +4,8 @@ import Button from '../components/Button';
 import Image from '../components/Image';
 import { Link } from 'react-router-dom';
 import { IMAGES, FALLBACK_IMAGES } from '../config/images';
+import FadeIn from '../components/FadeIn';
+import { SHOP_INFO } from '../constants';
 
 const Home: React.FC = () => {
   return (
@@ -42,23 +44,51 @@ const Home: React.FC = () => {
 
       {/* Intro Message */}
       <section className="py-12 md:py-20 px-6 container mx-auto text-center">
-        <p className="text-base md:text-lg leading-loose tracking-wider text-text mb-12">
-          群馬みどり市にある、ヘアサロン。<br />
-          髪と心のリラックス空間。<br />
-          <br />
-          どなたでも安心して通える<br />
-          「ケア理容師」がいるお店です。
-        </p>
+        <div className="text-base md:text-lg leading-loose tracking-wider text-text mb-12">
+          <p className="mb-8">
+            群馬みどり市にある、ヘアサロン。<br />
+            髪と心のリラックス空間。
+          </p>
+
+          <div className="my-10 max-w-2xl mx-auto">
+            <FadeIn>
+              <Image
+                src={IMAGES.home.topRelax}
+                fallbackSrc={FALLBACK_IMAGES.home}
+                alt="Relaxation Space"
+                className="w-full h-auto rounded-sm shadow-sm"
+              />
+            </FadeIn>
+          </div>
+
+          <p>
+            どなたでも安心して通える<br />
+            「ケア理容師」がいるお店です。
+          </p>
+        </div>
 
         <Button to="/concept" subtitle="コンセプト">CONCEPT</Button>
 
         <div className="mt-16 max-w-3xl mx-auto">
-          <Image
-            src={IMAGES.concept.intro}
-            fallbackSrc={FALLBACK_IMAGES.concept}
-            alt="Salon Interior"
-            className="w-full h-auto rounded-sm shadow-sm"
-          />
+          <FadeIn>
+            <Image
+              src={IMAGES.concept.intro}
+              fallbackSrc={FALLBACK_IMAGES.concept}
+              alt="Salon Interior"
+              className="w-full h-auto rounded-sm shadow-sm"
+            />
+          </FadeIn>
+        </div>
+
+        <div className="mt-16 flex justify-center">
+          <Button
+            href={SHOP_INFO.instagram}
+            subtitle="インスタグラム"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            INSTAGRAM
+          </Button>
         </div>
       </section>
 

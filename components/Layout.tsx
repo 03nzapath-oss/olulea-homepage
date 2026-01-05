@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
-import { Menu, X, Phone } from 'lucide-react';
+import { Menu, X, Phone, Instagram } from 'lucide-react';
 import { NAV_LINKS, SHOP_INFO } from '../constants';
 
 interface LayoutProps {
@@ -99,6 +99,17 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <p className="tracking-widest">{SHOP_INFO.phone}</p>
           <p>Open 9:00 - 19:00</p>
         </div>
+
+        <a
+          href="https://www.instagram.com/olulea.hair?igsh=N293emFtZTNnYmtl"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 text-subtext hover:text-accent mb-8 transition-colors"
+          aria-label="Instagram"
+        >
+          <Instagram size={24} />
+          <span className="text-sm tracking-wider">Instagram</span>
+        </a>
 
         <p className="text-[10px] text-gray-400 tracking-wider">
           &copy; {new Date().getFullYear()} OLU’LEA. All Rights Reserved.

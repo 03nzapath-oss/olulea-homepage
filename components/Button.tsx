@@ -8,9 +8,11 @@ interface ButtonProps {
   subtitle?: string; // 日本語サブタイトル
   className?: string;
   onClick?: () => void;
+  target?: string;
+  rel?: string;
 }
 
-const Button: React.FC<ButtonProps> = ({ to, href, children, subtitle, className = '', onClick }) => {
+const Button: React.FC<ButtonProps> = ({ to, href, children, subtitle, className = '', onClick, target, rel }) => {
   const baseClasses = "inline-flex items-center justify-center border border-accent text-accent bg-white rounded px-6 py-3 text-sm tracking-widest hover:bg-accent hover:text-white transition-colors duration-300 min-w-[160px]";
 
   const content = subtitle ? (
@@ -32,7 +34,7 @@ const Button: React.FC<ButtonProps> = ({ to, href, children, subtitle, className
 
   if (href) {
     return (
-      <a href={href} className={`${baseClasses} ${className}`} onClick={onClick}>
+      <a href={href} className={`${baseClasses} ${className}`} onClick={onClick} target={target} rel={rel}>
         {content}
       </a>
     );

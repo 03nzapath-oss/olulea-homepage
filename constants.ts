@@ -18,7 +18,8 @@ export const SHOP_INFO = {
   features: [
     "個室あり",
     "ケア理容師認定（平成17年2月24日取得）"
-  ]
+  ],
+  instagram: "https://www.instagram.com/olulea.hair?igsh=N293emFtZTNnYmtl"
 };
 
 export const MENU_ITEMS: MenuCategory[] = [
