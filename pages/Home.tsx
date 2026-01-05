@@ -30,9 +30,9 @@ const Home: React.FC = () => {
           <img
             src={`${import.meta.env.BASE_URL}images/logo.svg`}
             alt="OLU'LEA"
-            className="h-12 md:h-16 w-auto mx-auto mb-3 brightness-110"
+            className="h-12 md:h-16 w-auto mx-auto mb-3 brightness-105"
           />
-          <p className="text-xs md:text-sm tracking-widest text-[#B8C2AE] mb-6">
+          <p className="text-xs md:text-sm tracking-widest text-[#B0BAA6] mb-6">
             オル’レア
           </p>
           <p className="text-sm md:text-base text-subtext tracking-widest leading-loose">
