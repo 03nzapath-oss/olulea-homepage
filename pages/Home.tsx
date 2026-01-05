@@ -27,9 +27,11 @@ const Home: React.FC = () => {
           <p className="text-xs md:text-sm tracking-[0.3em] text-accent mb-2">
             hair relaxation salon
           </p>
-          <h1 className="text-3xl md:text-4xl font-light tracking-[0.2em] text-accent mb-1">
-            OLU’LEA
-          </h1>
+          <img
+            src={`${import.meta.env.BASE_URL}images/logo.svg`}
+            alt="OLU'LEA"
+            className="h-12 md:h-16 w-auto mx-auto mb-3"
+          />
           <p className="text-xs md:text-sm tracking-widest text-accent mb-6">
             オル’レア
           </p>
