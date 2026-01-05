@@ -51,3 +51,19 @@ body {
 .animate-fade-in {
     animation: fade-in 1.3s ease-out forwards;
 }
+
+@keyframes ripple {
+    0% {
+        transform: translate(-50%, -50%) scale(0.5);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(2.5);
+        opacity: 0;
+    }
+}
+
+.animate-ripple {
+    animation: ripple 2s ease-out forwards;
+}

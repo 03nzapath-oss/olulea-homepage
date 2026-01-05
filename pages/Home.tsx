@@ -16,7 +16,7 @@ const Home: React.FC = () => {
           src={IMAGES.hero.main}
           fallbackSrc={FALLBACK_IMAGES.hero}
           alt="Salon Interior"
-          className="absolute inset-0 w-full h-full object-cover blur-[2.5px] scale-105"
+          className="absolute inset-0 w-full h-full object-cover blur-[2.5px] scale-105 saturate-[1.3]"
         />
         {/* 極薄い白いオーバーレイ */}
         <div className="absolute inset-0 bg-white/[0.35]"></div>
@@ -27,14 +27,20 @@ const Home: React.FC = () => {
           <p className="text-xs md:text-sm tracking-[0.3em] text-accent mb-2">
             hair relaxation salon
           </p>
-          <img
-            src={`${import.meta.env.BASE_URL}images/logo.svg`}
-            alt="OLU'LEA"
-            className="h-12 md:h-16 w-auto mx-auto mb-3 brightness-105"
-          />
-          <p className="text-xs md:text-sm tracking-widest text-[#B0BAA6] mb-6">
-            オル’レア
-          </p>
+          <div className="relative">
+            {/* Ripple Effect */}
+            <div className="absolute top-8 left-1/2 w-20 h-20 rounded-full border border-[#B0BAA6]/40 opacity-0 animate-ripple pointer-events-none" style={{ animationDelay: '1.2s' }}></div>
+            <div className="absolute top-8 left-1/2 w-20 h-20 rounded-full border border-[#B0BAA6]/20 opacity-0 animate-ripple pointer-events-none" style={{ animationDelay: '1.6s' }}></div>
+
+            <img
+              src={`${import.meta.env.BASE_URL}images/logo.svg`}
+              alt="OLU'LEA"
+              className="h-12 md:h-16 w-auto mx-auto mb-3 brightness-105 relative z-10"
+            />
+            <p className="text-xs md:text-sm tracking-widest text-[#B0BAA6] mb-6 relative z-10">
+              オル’レア
+            </p>
+          </div>
           <p className="text-sm md:text-base text-subtext tracking-widest leading-loose">
             心地よい空間で、<br />
             喜びと幸せを。<br />
