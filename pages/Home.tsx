@@ -16,15 +16,15 @@ const Home: React.FC = () => {
           src={IMAGES.hero.main}
           fallbackSrc={FALLBACK_IMAGES.hero}
           alt="Salon Interior"
-          className="absolute inset-0 w-full h-full object-cover blur-[2.5px] scale-105 brightness-110"
+          className="absolute inset-0 w-full h-full object-cover blur-[2.5px] scale-105"
         />
         {/* 極薄い白いオーバーレイ */}
-        <div className="absolute inset-0 bg-white/[0.35]"></div>
+        <div className="absolute inset-0 bg-white/[0.05]"></div>
         <div
           className="relative z-10 text-center bg-white/[0.85] p-8 md:p-12 backdrop-blur-sm max-w-lg mx-4 animate-fade-in opacity-0"
           style={{ animationDelay: '0.5s' }}
         >
-          <p className="text-xs md:text-sm tracking-[0.3em] text-accent mb-2">
+          <p className="text-xs md:text-sm tracking-[0.3em] text-accent font-medium mb-2">
             hair relaxation salon
           </p>
           <div className="relative">
@@ -35,9 +35,9 @@ const Home: React.FC = () => {
             <img
               src={`${import.meta.env.BASE_URL}images/logo.svg`}
               alt="OLU'LEA"
-              className="h-12 md:h-16 w-auto mx-auto mb-3 relative z-10"
+              className="h-12 md:h-16 w-auto mx-auto mb-3 relative z-10 brightness-110 saturate-125"
             />
-            <p className="text-xs md:text-sm tracking-widest text-[#A9B29F] mb-6 relative z-10">
+            <p className="text-xs md:text-sm tracking-widest text-accent font-medium mb-6 relative z-10">
               オル’レア
             </p>
           </div>
