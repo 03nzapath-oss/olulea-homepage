@@ -50,7 +50,7 @@ const Home: React.FC = () => {
             髪と心のリラックス空間。
           </p>
 
-          <div className="my-10 max-w-2xl mx-auto">
+          <div className="my-20 max-w-2xl mx-auto">
             <FadeIn>
               <Image
                 src={IMAGES.home.topRelax}
