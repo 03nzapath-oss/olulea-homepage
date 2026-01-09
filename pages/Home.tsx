@@ -22,7 +22,7 @@ const Home: React.FC = () => {
         <div className="absolute inset-0 bg-white/[0.35]"></div>
         <div
           className="relative z-10 text-center bg-white/[0.85] p-8 md:p-12 backdrop-blur-sm max-w-lg mx-4 animate-fade-in opacity-0"
-          style={{ animationDelay: '0.5s' }}
+          style={{ animationDelay: '0.1s' }}
         >
           <p className="text-xs md:text-sm tracking-[0.3em] text-accent font-medium mb-2">
             hair relaxation salon
