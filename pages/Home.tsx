@@ -63,7 +63,7 @@ const Home: React.FC = () => {
             オルレアはあります。
           </p>
 
-          <div className="mt-16 mb-16 max-w-3xl mx-auto">
+          <div className="mt-16 mb-6 max-w-3xl mx-auto">
             <FadeIn>
               <Image
                 src={IMAGES.home.topRelax}
@@ -74,20 +74,15 @@ const Home: React.FC = () => {
             </FadeIn>
           </div>
 
-          <p className="mb-8">
+          <p className="mb-16">
             ここで過ごすひとときが、<br />
             少しでも心地よくあるように。
-          </p>
-
-          <p>
-            どなたでも安心して通える<br />
-            「ケア理容師」がいるお店です。
           </p>
         </div>
 
         <Button to="/concept" subtitle="コンセプト" className="w-[180px]">CONCEPT</Button>
 
-        <div className="mt-16 max-w-3xl mx-auto">
+        <div className="mt-16 mb-6 max-w-3xl mx-auto">
           <FadeIn>
             <Image
               src={IMAGES.concept.intro}
@@ -98,7 +93,14 @@ const Home: React.FC = () => {
           </FadeIn>
         </div>
 
-        <div className="mt-16 flex justify-center">
+        <div className="text-base md:text-lg leading-loose tracking-wider text-text mb-12">
+          <p className="mb-16">
+            どなたでも安心して通える<br />
+            「ケア理容師」がいるお店です。
+          </p>
+        </div>
+
+        <div className="flex justify-center">
           <Button
             href={SHOP_INFO.instagram}
             subtitle="インスタグラム"
