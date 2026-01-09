@@ -74,15 +74,20 @@ const Home: React.FC = () => {
             </FadeIn>
           </div>
 
-          <p className="mb-16">
+          <p className="mb-8">
             ここで過ごすひとときが、<br />
             少しでも心地よくあるように。
+          </p>
+
+          <p className="mb-16">
+            どなたでも安心して通える<br />
+            「ケア理容師」がいるお店です。
           </p>
         </div>
 
         <Button to="/concept" subtitle="コンセプト" className="w-[180px]">CONCEPT</Button>
 
-        <div className="mt-16 mb-6 max-w-3xl mx-auto">
+        <div className="mt-16 mb-16 max-w-3xl mx-auto">
           <FadeIn>
             <Image
               src={IMAGES.concept.intro}
@@ -91,13 +96,6 @@ const Home: React.FC = () => {
               className="w-full h-auto rounded-sm shadow-sm"
             />
           </FadeIn>
-        </div>
-
-        <div className="text-base md:text-lg leading-loose tracking-wider text-text mb-12">
-          <p className="mb-16">
-            どなたでも安心して通える<br />
-            「ケア理容師」がいるお店です。
-          </p>
         </div>
 
         <div className="flex justify-center">
