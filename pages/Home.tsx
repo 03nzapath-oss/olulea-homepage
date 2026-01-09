@@ -53,10 +53,14 @@ const Home: React.FC = () => {
       {/* Intro Message */}
       <section className="py-12 md:py-20 px-3 md:px-6 container mx-auto text-center">
         <div className="text-base md:text-lg leading-loose tracking-wider text-text mb-12">
-          <p className="mb-8">
+          <p className="mb-3 md:mb-4">
             群馬みどり市にある、ヘアサロン。<br />
-            髪と心のリラックス空間。<br />
-            笠懸西小学校の南側、車で通るとふと目に入る場所。
+            髪と心のリラックス空間。
+          </p>
+          <p className="mb-8">
+            笠懸西小学校の南側、<br />
+            車で通るとふと目に入る場所に<br className="md:hidden" />
+            オルレアはあります。
           </p>
 
           <div className="mt-14 mb-20 max-w-3xl mx-auto">
