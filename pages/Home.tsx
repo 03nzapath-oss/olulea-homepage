@@ -51,7 +51,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Intro Message */}
-      <section className="pt-12 pb-20 md:pt-20 md:pb-20 px-3 md:px-6 container mx-auto text-center">
+      <section className="pt-12 pb-12 md:pt-20 md:pb-20 px-3 md:px-6 container mx-auto text-center">
         <div className="text-base md:text-lg leading-loose tracking-wider text-text mb-12">
           <p className="mb-3 md:mb-4">
             群馬みどり市にある、ヘアサロン。<br />
@@ -79,7 +79,7 @@ const Home: React.FC = () => {
             少しでも心地よくあるように。
           </p>
 
-          <p className="mb-16">
+          <p className="mb-12 md:mb-16">
             どなたでも安心して通える<br />
             「ケア理容師」がいるお店です。
           </p>
@@ -87,7 +87,7 @@ const Home: React.FC = () => {
 
         <Button to="/concept" subtitle="コンセプト" className="w-[180px]">CONCEPT</Button>
 
-        <div className="mt-20 mb-20 max-w-3xl mx-auto">
+        <div className="mt-12 mb-12 md:mt-20 md:mb-20 max-w-3xl mx-auto">
           <FadeIn>
             <Image
               src={IMAGES.concept.intro}
