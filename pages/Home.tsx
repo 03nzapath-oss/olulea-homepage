@@ -63,7 +63,7 @@ const Home: React.FC = () => {
             オルレアはあります。
           </p>
 
-          <div className="mt-14 mb-20 max-w-3xl mx-auto">
+          <div className="mt-16 mb-16 max-w-3xl mx-auto">
             <FadeIn>
               <Image
                 src={IMAGES.home.topRelax}
@@ -73,6 +73,11 @@ const Home: React.FC = () => {
               />
             </FadeIn>
           </div>
+
+          <p className="mb-8">
+            ここで過ごすひとときが、<br />
+            少しでも心地よくあるように。
+          </p>
 
           <p>
             どなたでも安心して通える<br />
@@ -163,7 +168,10 @@ const Home: React.FC = () => {
             </div>
             <div>
               <h4 className="text-accent tracking-widest mb-2">ADDRESS</h4>
-              <p className="text-sm text-subtext">群馬県みどり市笠懸町鹿 3469-6</p>
+              <p className="text-sm text-subtext">
+                群馬県みどり市笠懸町鹿 3469-6<br />
+                （笠懸西小学校南側道路沿い）
+              </p>
             </div>
             <div className="pt-4 flex flex-col md:flex-row gap-4 justify-center md:justify-start">
               <Button to="/access" subtitle="アクセス">ACCESS</Button>
