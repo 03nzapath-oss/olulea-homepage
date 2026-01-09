@@ -55,7 +55,8 @@ const Home: React.FC = () => {
         <div className="text-base md:text-lg leading-loose tracking-wider text-text mb-12">
           <p className="mb-8">
             群馬みどり市にある、ヘアサロン。<br />
-            髪と心のリラックス空間。
+            髪と心のリラックス空間。<br />
+            笠懸西小学校の南側、車で通るとふと目に入る場所。
           </p>
 
           <div className="mt-14 mb-20 max-w-3xl mx-auto">
@@ -75,7 +76,7 @@ const Home: React.FC = () => {
           </p>
         </div>
 
-        <Button to="/concept" subtitle="コンセプト">CONCEPT</Button>
+        <Button to="/concept" subtitle="コンセプト" className="w-[180px]">CONCEPT</Button>
 
         <div className="mt-16 max-w-3xl mx-auto">
           <FadeIn>
@@ -94,6 +95,7 @@ const Home: React.FC = () => {
             subtitle="インスタグラム"
             target="_blank"
             rel="noopener noreferrer"
+            className="w-[180px]"
           >
             INSTAGRAM
           </Button>
@@ -127,8 +129,9 @@ const Home: React.FC = () => {
               </p>
             </Link>
           </div>
-          <div className="text-center mt-12">
-            <Button to="/menu" subtitle="全メニュー">VIEW ALL MENU</Button>
+          <div className="text-center mt-12 flex flex-col items-center gap-6">
+            <Button to="/menu" subtitle="全メニュー" className="w-[180px]">VIEW ALL MENU</Button>
+            <Button to="/english" subtitle="English" className="w-[180px]">FOR VISITORS</Button>
           </div>
         </div>
       </section>

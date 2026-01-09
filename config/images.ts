@@ -6,7 +6,7 @@ export const IMAGES = {
     // ヒーロー画像
     hero: {
         main: `${import.meta.env.BASE_URL}images/hero/new_main_v8.jpg`,
-        store: `${import.meta.env.BASE_URL}images/hero/store.jpg`,
+        store: `${import.meta.env.BASE_URL}images/hero/store_v2.jpg`,
     },
 
     // ホーム
