@@ -10,8 +10,9 @@ const EnglishMenu: React.FC = () => {
             <div className="mb-16 text-center space-y-6">
                 <h2 className="text-2xl md:text-3xl text-accent font-light">Japanese Grooming & Relaxation</h2>
                 <div className="text-text space-y-4 leading-relaxed text-sm md:text-base">
-                    <p>This page is for visitors who want to relax and enjoy a Japanese-style experience.</p>
+                    <p>This page is for visitors who want to relax and enjoy a Japanese-style experience, with fixed packages designed to offer a clear and comfortable service flow.</p>
                     <p className="font-medium">Quiet, clean, and calm barber services in Japan.</p>
+
                 </div>
             </div>
 
@@ -109,6 +110,7 @@ const EnglishMenu: React.FC = () => {
                     <li>No coloring or perm services</li>
                     <li>Prices include tax</li>
                     <li>No tipping required</li>
+                    <li>Resident menu is available for those with proof of residence</li>
                 </ul>
                 <p className="text-sm text-subtext italic">Thank you for your understanding.</p>
             </div>
