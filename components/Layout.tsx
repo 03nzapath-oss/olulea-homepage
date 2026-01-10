@@ -117,7 +117,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       </footer>
 
       {/* Sticky Call Button (Mobile Only) */}
-      <div className="md:hidden fixed bottom-8 right-8 z-30 font-sans">
+      <div className="md:hidden fixed bottom-[calc(32px+env(safe-area-inset-bottom,0px))] right-8 z-30 font-sans">
         <div className="relative flex items-center justify-center">
           <a
             href={`tel:${SHOP_INFO.phone}`}
@@ -133,7 +133,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 d="M 12,50 A 38,38 0 0,0 88,50"
                 fill="none"
               />
-              <text fontSize="11" fontWeight="bold" fill="#A8B29E" letterSpacing="0.05em">
+              <text fontSize="11" fontWeight="bold" fill="#A8B29E" letterSpacing="0.1em">
                 <textPath href="#textPath" startOffset="50%" textAnchor="middle" side="left">
                   電話で予約
                 </textPath>
