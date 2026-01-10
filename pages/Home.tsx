@@ -21,8 +21,11 @@ const Home: React.FC = () => {
         {/* 極薄い白いオーバーレイ */}
         <div className="absolute inset-0 bg-white/[0.35]"></div>
         <div
-          className="relative z-10 text-center bg-white/[0.85] p-8 md:p-12 backdrop-blur-sm max-w-lg mx-4 animate-fade-in opacity-0"
-          style={{ animationDelay: '0.1s' }}
+          className="relative z-10 text-center bg-white/25 md:bg-white/15 p-8 md:p-12 backdrop-blur-[8px] md:backdrop-blur-[6px] border border-white/50 shadow-[0_8px_24px_rgba(0,0,0,0.08)] max-w-lg mx-4 animate-fade-in opacity-0"
+          style={{
+            animationDelay: '0.1s',
+            textShadow: '0 2px 8px rgba(0, 0, 0, 0.35)'
+          }}
         >
           <p className="text-xs md:text-sm tracking-[0.3em] text-accent font-medium mb-2">
             hair relaxation salon
@@ -53,17 +56,12 @@ const Home: React.FC = () => {
       {/* Intro Message */}
       <section className="pt-12 pb-12 md:pt-20 md:pb-20 px-3 md:px-6 container mx-auto text-center">
         <div className="text-base md:text-lg leading-loose tracking-wider text-text mb-12">
-          <p className="mb-3 md:mb-4">
+          <p className="mb-12 md:mb-20">
             群馬みどり市にある、ヘアサロン。<br />
             髪と心のリラックス空間。
           </p>
-          <p className="mb-8">
-            笠懸西小学校の南側、<br />
-            車で通るとふと目に入る場所に<br className="md:hidden" />
-            オルレアはあります。
-          </p>
 
-          <div className="mt-16 mb-6 max-w-3xl mx-auto">
+          <div className="mt-16 mb-16 max-w-3xl mx-auto">
             <FadeIn>
               <Image
                 src={IMAGES.home.topRelax}
@@ -74,10 +72,7 @@ const Home: React.FC = () => {
             </FadeIn>
           </div>
 
-          <p className="mb-8">
-            ここで過ごすひとときが、<br />
-            少しでも心地よくあるように。
-          </p>
+
 
           <p className="mb-12 md:mb-16">
             どなたでも安心して通える<br />
