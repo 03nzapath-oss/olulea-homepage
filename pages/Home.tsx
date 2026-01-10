@@ -16,18 +16,19 @@ const Home: React.FC = () => {
           src={IMAGES.hero.main}
           fallbackSrc={FALLBACK_IMAGES.hero}
           alt="Salon Interior"
-          className="absolute inset-0 w-full h-full object-cover blur-[0.3px]"
+          className="absolute inset-0 w-full h-full object-cover"
+          style={{ filter: 'brightness(1.12) contrast(1.05) saturate(1.02) blur(0.3px)' }}
         />
         {/* 極薄い白いオーバーレイ */}
         <div className="absolute inset-0 bg-white/[0.35]"></div>
         <div
-          className="relative z-10 text-center bg-white/25 md:bg-white/15 p-8 md:p-12 backdrop-blur-[8px] md:backdrop-blur-[6px] border border-white/50 shadow-[0_8px_24px_rgba(0,0,0,0.08)] max-w-lg mx-4 animate-fade-in opacity-0"
+          className="relative z-10 text-center bg-[rgba(255,255,255,0.45)] md:bg-[rgba(255,255,255,0.35)] p-8 md:p-12 backdrop-blur-[9px] md:backdrop-blur-[7px] shadow-[0_10px_28px_rgba(0,0,0,0.10)] max-w-lg mx-4 animate-fade-in opacity-0"
           style={{
             animationDelay: '0.1s',
-            textShadow: '0 2px 8px rgba(0, 0, 0, 0.35)'
+            textShadow: '0 2px 12px rgba(255, 255, 255, 0.55), 0 2px 10px rgba(0, 0, 0, 0.18)'
           }}
         >
-          <p className="text-xs md:text-sm tracking-[0.3em] text-accent font-medium mb-2">
+          <p className="text-xs md:text-sm tracking-[0.3em] text-accent font-bold mb-2">
             hair relaxation salon
           </p>
           <div className="relative">
@@ -40,11 +41,11 @@ const Home: React.FC = () => {
               alt="OLU'LEA"
               className="h-12 md:h-16 w-auto mx-auto mb-3 relative z-10 brightness-110 saturate-125"
             />
-            <p className="text-xs md:text-sm tracking-widest text-accent font-medium mb-6 relative z-10">
+            <p className="text-xs md:text-sm tracking-widest text-accent font-bold mb-6 relative z-10">
               オル’レア
             </p>
           </div>
-          <p className="text-sm md:text-base text-subtext tracking-widest leading-loose">
+          <p className="text-sm md:text-base text-subtext tracking-widest leading-loose font-medium">
             心地よい空間で、<br />
             喜びと幸せを。<br />
             <br />
