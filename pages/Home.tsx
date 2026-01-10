@@ -166,7 +166,7 @@ const Home: React.FC = () => {
               <h4 className="text-accent tracking-widest mb-2">ADDRESS</h4>
               <p className="text-sm text-subtext">
                 群馬県みどり市笠懸町鹿 3469-6<br />
-                （笠懸西小学校南側道路沿い）
+                （笠懸西小学校 南側道路沿い）
               </p>
             </div>
             <div className="pt-4 flex flex-col md:flex-row gap-4 justify-center md:justify-start">

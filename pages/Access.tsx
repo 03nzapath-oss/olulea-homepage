@@ -10,7 +10,9 @@ const Access: React.FC = () => {
       <SectionTitle en="ACCESS" ja="アクセス" />
 
       <div className="text-center mb-8">
-        <p className="text-lg text-text mb-2">{SHOP_INFO.address}</p>
+        <p className="text-lg text-text mb-2">
+          〒379-2313<br className="md:hidden" /> 群馬県みどり市笠懸町鹿 3469-6
+        </p>
         <p className="text-subtext text-sm">駐車場完備</p>
       </div>
 
