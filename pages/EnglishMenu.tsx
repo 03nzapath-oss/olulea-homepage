@@ -117,7 +117,7 @@ const EnglishMenu: React.FC = () => {
 
             {/* Reservation */}
             <div className="mt-12 text-center">
-                <h3 className="text-xl font-bold text-accent mb-4">Reservation</h3>
+                <h3 className="text-xl font-bold text-accent mb-4">Appointment</h3>
                 <p className="text-text leading-relaxed">
                     Please contact us in advance for availability.<br />
                     We recommend booking before your visit.
