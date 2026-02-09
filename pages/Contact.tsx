@@ -4,6 +4,16 @@ import { SHOP_INFO } from '../constants';
 import { Phone } from 'lucide-react';
 
 const Contact: React.FC = () => {
+  // Google Analytics event for phone calls
+  const handlePhoneClick = () => {
+    if (typeof window.gtag !== 'undefined') {
+      window.gtag('event', 'click_phone', {
+        event_category: 'contact',
+        event_label: SHOP_INFO.phone
+      });
+    }
+  };
+
   return (
     <div className="container mx-auto px-6 py-12 md:py-24 max-w-2xl text-center">
       <SectionTitle en="CONTACT" ja="ご予約・お問い合わせ" />
@@ -16,6 +26,7 @@ const Contact: React.FC = () => {
       <div className="bg-secondary/20 p-12 rounded-sm mb-12">
         <a
           href={`tel:${SHOP_INFO.phone}`}
+          onClick={handlePhoneClick}
           className="inline-flex flex-col items-center group"
         >
           <div className="flex items-center gap-3 text-accent mb-2">

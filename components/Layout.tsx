@@ -17,6 +17,16 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     setIsMenuOpen(false);
   }, [location.pathname]);
 
+  // Google Analytics event for phone calls
+  const handlePhoneClick = () => {
+    if (typeof window.gtag !== 'undefined') {
+      window.gtag('event', 'click_phone', {
+        event_category: 'contact',
+        event_label: SHOP_INFO.phone
+      });
+    }
+  };
+
   return (
     <div className="min-h-screen flex flex-col font-sans text-text">
       {/* Header */}
@@ -73,6 +83,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <div className="mt-8 pt-8 border-t border-secondary w-3/4 flex justify-center">
             <a
               href={`tel:${SHOP_INFO.phone}`}
+              onClick={handlePhoneClick}
               className="flex items-center space-x-2 text-accent"
             >
               <Phone size={18} />
@@ -121,6 +132,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="relative flex items-center justify-center">
           <a
             href={`tel:${SHOP_INFO.phone}`}
+            onClick={handlePhoneClick}
             className="relative z-10 flex items-center justify-center w-14 h-14 bg-accent text-white rounded-full shadow-lg hover:bg-opacity-90 transition-all"
             aria-label="Call Now"
           >

@@ -59,3 +59,10 @@ export interface HeadSpaCourse {
   }[];
   note?: string;
 }
+
+declare global {
+  interface Window {
+    dataLayer: any[];
+    gtag: (...args: any[]) => void;
+  }
+}
