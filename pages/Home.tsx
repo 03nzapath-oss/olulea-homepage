@@ -22,9 +22,8 @@ const Home: React.FC = () => {
         {/* 極薄い白いオーバーレイ */}
         <div className="absolute inset-0 bg-white/[0.35]"></div>
         <div
-          className="relative z-10 text-center bg-[rgba(255,255,255,0.45)] md:bg-[rgba(255,255,255,0.35)] p-8 md:p-12 backdrop-blur-[9px] md:backdrop-blur-[7px] shadow-[0_10px_28px_rgba(0,0,0,0.10)] max-w-lg mx-4 animate-fade-in opacity-0"
+          className="relative z-10 text-center bg-[rgba(255,255,255,0.45)] md:bg-[rgba(255,255,255,0.35)] p-8 md:p-12 backdrop-blur-[9px] md:backdrop-blur-[7px] shadow-[0_10px_28px_rgba(0,0,0,0.10)] max-w-lg mx-4"
           style={{
-            animationDelay: '0.1s',
             textShadow: '0 2px 12px rgba(255, 255, 255, 0.55), 0 2px 10px rgba(0, 0, 0, 0.18)'
           }}
         >
@@ -40,6 +39,7 @@ const Home: React.FC = () => {
               src={`${import.meta.env.BASE_URL}images/logo.svg`}
               alt="OLU'LEA"
               className="h-12 md:h-16 w-auto mx-auto mb-3 relative z-10 brightness-110 saturate-125"
+              loading="eager"
             />
             <p className="text-xs md:text-sm tracking-widest text-accent font-bold mb-6 relative z-10">
               オル’レア
