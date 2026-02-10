@@ -69,7 +69,7 @@ const Contact: React.FC = () => {
           <span className="text-lg font-bold tracking-widest">LINEで予約</span>
         </a>
 
-        <p className="mt-8 text-xs text-text">
+        <p className="mt-8 text-xs text-subtext">
           ※なお、当日中やお急ぎの方の予約はお電話でお願い致します。
         </p>
       </div>
