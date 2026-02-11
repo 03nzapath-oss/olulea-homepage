@@ -18,6 +18,9 @@ const Home: React.FC = () => {
           alt="Salon Interior"
           className="absolute inset-0 w-full h-full object-cover"
           style={{ filter: 'brightness(1.12) contrast(1.05) saturate(1.02) blur(0.3px)' }}
+          loading="eager"
+          fetchPriority="high"
+          decoding="sync"
         />
         {/* 極薄い白いオーバーレイ */}
         <div className="absolute inset-0 bg-white/[0.35]"></div>
@@ -40,6 +43,8 @@ const Home: React.FC = () => {
               alt="OLU'LEA"
               className="h-12 md:h-16 w-auto mx-auto mb-3 relative z-10 brightness-110 saturate-125"
               loading="eager"
+              fetchPriority="high"
+              decoding="sync"
             />
             <p className="text-xs md:text-sm tracking-widest text-accent font-bold mb-6 relative z-10">
               オル’レア
