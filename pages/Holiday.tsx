@@ -5,7 +5,7 @@ import Calendar from '../components/Calendar';
 const Holiday: React.FC = () => {
   return (
     <div className="container mx-auto px-6 py-12 md:py-24 max-w-5xl">
-      <SectionTitle en="HOLIDAY" ja="定休日・営業時間" />
+      <SectionTitle as="h1" en="HOLIDAY" ja="定休日・営業時間" />
 
       {/* Business Information Section */}
       <div className="max-w-3xl mx-auto mb-16">

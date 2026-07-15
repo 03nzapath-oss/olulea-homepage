@@ -7,14 +7,29 @@ interface LayoutProps {
   children: React.ReactNode;
 }
 
+const PAGE_TITLES: Record<string, string> = {
+  '/': "OLU'LEA オルレア | Hair Relaxation Salon",
+  '/concept': "コンセプト | OLU'LEA オルレア",
+  '/menu': "メニュー・料金 | OLU'LEA オルレア",
+  '/english': "English Menu | OLU'LEA",
+  '/headspa': "ヘッドスパ | OLU'LEA オルレア",
+  '/esthe': "エステ | OLU'LEA オルレア",
+  '/info': "店舗情報 | OLU'LEA オルレア",
+  '/holiday': "定休日・営業時間 | OLU'LEA オルレア",
+  '/access': "アクセス | OLU'LEA オルレア",
+  '/gallery': "ギャラリー | OLU'LEA オルレア",
+  '/contact': "ご予約・お問い合わせ | OLU'LEA オルレア",
+};
+
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
 
-  // Scroll to top on route change
+  // Reset page state and metadata on route changes.
   useEffect(() => {
     window.scrollTo(0, 0);
     setIsMenuOpen(false);
+    document.title = PAGE_TITLES[location.pathname] ?? PAGE_TITLES['/'];
   }, [location.pathname]);
 
   // Google Analytics event for phone calls
@@ -31,7 +46,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     <div className="min-h-screen flex flex-col font-sans text-text">
       {/* Header */}
       <header className="fixed top-0 left-0 w-full bg-white/95 backdrop-blur-sm z-50 h-16 md:h-20 flex items-center justify-between px-4 md:px-8 border-b border-secondary">
-        <NavLink to="/" className="flex items-center">
+        <NavLink to="/" className="flex items-center shrink-0">
           <img
             src={`${import.meta.env.BASE_URL}images/logo.svg`}
             alt="OLU'LEA"
@@ -42,7 +57,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         </NavLink>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex space-x-6">
+        <nav className="hidden lg:flex space-x-6">
           {NAV_LINKS.map((link) => (
             <NavLink
               key={link.path}
@@ -59,7 +74,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
         {/* Mobile Hamburger */}
         <button
-          className="md:hidden p-2 text-subtext"
+          className="lg:hidden p-2 text-subtext"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           aria-label="Toggle menu"
         >
@@ -69,7 +84,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
       {/* Mobile Menu Overlay */}
       {isMenuOpen && (
-        <div className="fixed inset-0 top-16 bg-white z-40 flex flex-col items-center justify-start pt-12 space-y-6 md:hidden overflow-y-auto pb-20">
+        <div className="fixed inset-0 top-16 md:top-20 bg-white z-40 flex flex-col items-center justify-start pt-12 space-y-6 lg:hidden overflow-y-auto pb-20">
           {NAV_LINKS.map((link) => (
             <NavLink
               key={link.path}
@@ -131,7 +146,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       </main>
 
       {/* Footer */}
-      <footer className="bg-secondary py-12 px-4 text-center mt-20">
+      <footer className="bg-secondary pt-12 pb-32 lg:py-12 px-4 text-center mt-20">
         <img
           src={`${import.meta.env.BASE_URL}images/logo-header.svg`}
           alt="OLU'LEA"
@@ -185,7 +200,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       </footer>
 
       {/* Sticky Call Button (Mobile Only) */}
-      <div className="md:hidden fixed bottom-[calc(32px+env(safe-area-inset-bottom,0px))] right-8 z-30 font-sans">
+      <div className="lg:hidden fixed bottom-[calc(32px+env(safe-area-inset-bottom,0px))] right-8 z-30 font-sans">
         <div className="relative flex items-center justify-center">
           <a
             href={`tel:${SHOP_INFO.phone}`}
@@ -204,7 +219,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               />
               <text fontSize="11" fontWeight="bold" fill="#A8B29E" letterSpacing="0.1em">
                 <textPath href="#textPath" startOffset="50%" textAnchor="middle" side="left">
-                  電話で予約
+                  電話で予約する
                 </textPath>
               </text>
             </svg>

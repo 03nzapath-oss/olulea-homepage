@@ -8,7 +8,7 @@ import { IMAGES, FALLBACK_IMAGES } from '../config/images';
 const HeadSpa: React.FC = () => {
   return (
     <div className="container mx-auto px-6 py-12 md:py-24 max-w-3xl">
-      <SectionTitle en="HEAD SPA" ja="ヘッドスパ" />
+      <SectionTitle as="h1" en="HEAD SPA" ja="ヘッドスパ" />
 
       <div className="text-center mb-12">
         <p className="text-subtext leading-loose mb-12">

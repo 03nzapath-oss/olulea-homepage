@@ -4,7 +4,7 @@ import SectionTitle from '../components/SectionTitle';
 const EnglishMenu: React.FC = () => {
     return (
         <div className="container mx-auto px-6 py-12 md:py-24 max-w-3xl">
-            <SectionTitle en="FOR VISITORS" ja="English Menu" />
+            <SectionTitle as="h1" en="FOR VISITORS" ja="English Menu" />
 
             {/* Intro */}
             <div className="mb-16 text-center space-y-6">

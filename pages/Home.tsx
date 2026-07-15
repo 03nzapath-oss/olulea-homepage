@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import { IMAGES, FALLBACK_IMAGES } from '../config/images';
 import FadeIn from '../components/FadeIn';
 import { SHOP_INFO } from '../constants';
+import Calendar from '../components/Calendar';
 
 const Home: React.FC = () => {
   return (
@@ -30,6 +31,7 @@ const Home: React.FC = () => {
             textShadow: '0 2px 12px rgba(255, 255, 255, 0.55), 0 2px 10px rgba(0, 0, 0, 0.18)'
           }}
         >
+          <h1 className="sr-only">OLU'LEA オルレア ヘアーリラクゼーションサロン</h1>
           <p className="text-xs md:text-sm tracking-[0.3em] text-accent font-bold mb-2">
             hair relaxation salon
           </p>
@@ -147,7 +149,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Info / Access Preview */}
-      <section className="py-20 container mx-auto px-6">
+      <section className="pt-20 pb-10 container mx-auto px-6">
         <SectionTitle en="INFORMATION" ja="ご案内" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto items-center">
           <div className="aspect-[4/3] bg-gray-100 overflow-hidden rounded-sm">
@@ -176,10 +178,18 @@ const Home: React.FC = () => {
             </div>
             <div className="pt-4 flex flex-col md:flex-row gap-4 justify-center md:justify-start">
               <Button to="/access" subtitle="アクセス">ACCESS</Button>
-              <Button to="/contact" subtitle="ご予約">RESERVE</Button>
+              <Button to="/contact" subtitle="ご予約">APPOINTMENT</Button>
             </div>
             <p className="text-xs text-subtext mt-3 text-center md:text-left">ご予約はお気軽にお電話ください</p>
           </div>
+        </div>
+      </section>
+
+      {/* Holiday Calendar */}
+      <section className="pt-8 pb-20 md:pt-12 bg-secondary/30 px-6">
+        <div className="container mx-auto max-w-5xl">
+          <SectionTitle en="CALENDAR" ja="カレンダー" />
+          <Calendar />
         </div>
       </section>
     </div>

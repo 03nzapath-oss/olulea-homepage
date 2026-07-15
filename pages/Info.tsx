@@ -5,7 +5,7 @@ import { SHOP_INFO } from '../constants';
 const Info: React.FC = () => {
   return (
     <div className="container mx-auto px-6 py-12 md:py-24 max-w-3xl">
-      <SectionTitle en="INFORMATION" ja="店舗情報" />
+      <SectionTitle as="h1" en="INFORMATION" ja="店舗情報" />
 
       <div className="bg-white">
         <dl className="space-y-8">

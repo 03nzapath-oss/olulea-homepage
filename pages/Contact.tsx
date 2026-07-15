@@ -16,7 +16,7 @@ const Contact: React.FC = () => {
 
   return (
     <div className="container mx-auto px-6 py-12 md:py-24 max-w-2xl text-center">
-      <SectionTitle en="CONTACT" ja="ご予約・お問い合わせ" />
+      <SectionTitle as="h1" en="CONTACT" ja="ご予約・お問い合わせ" />
 
       <p className="mb-12 text-text leading-loose">
         当店は電話予約優先となっております。<br />

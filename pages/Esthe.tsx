@@ -176,7 +176,7 @@ const EstheItem: React.FC<EstheItemProps> = ({ item }) => {
 const Esthe: React.FC = () => {
   return (
     <div className="container mx-auto px-6 py-12 md:py-24 max-w-4xl">
-      <SectionTitle en="ESTHE" ja="エステ" />
+      <SectionTitle as="h1" en="ESTHE" ja="エステ" />
 
       <div className="text-center mb-12">
         <p className="text-subtext leading-loose">

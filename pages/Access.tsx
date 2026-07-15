@@ -7,7 +7,7 @@ import { MapPin } from 'lucide-react';
 const Access: React.FC = () => {
   return (
     <div className="container mx-auto px-6 py-12 md:py-24 max-w-3xl">
-      <SectionTitle en="ACCESS" ja="アクセス" />
+      <SectionTitle as="h1" en="ACCESS" ja="アクセス" />
 
       <div className="text-center mb-8">
         <p className="text-lg text-text mb-2">

@@ -63,7 +63,7 @@ const Menu: React.FC = () => {
 
   return (
     <div className="container mx-auto px-6 py-12 md:py-24 max-w-3xl">
-      <SectionTitle en="MENU" ja="メニュー" />
+      <SectionTitle as="h1" en="MENU" ja="メニュー" />
 
       <div className="space-y-16">
         {MENU_ITEMS.map((category, idx) => (

@@ -4,7 +4,7 @@ import SectionTitle from '../components/SectionTitle';
 const Concept: React.FC = () => {
   return (
     <div className="container mx-auto px-6 py-12 md:py-24 max-w-3xl">
-      <SectionTitle en="CONCEPT" ja="コンセプト" />
+      <SectionTitle as="h1" en="CONCEPT" ja="コンセプト" />
 
       <div className="space-y-16 text-left leading-loose tracking-wide text-text">
         <section>
